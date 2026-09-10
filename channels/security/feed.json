@@ -1,21 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Trezor — Security alerts",
-  "home_page_url": "https://v1b3coder.github.io/keryx-demo/",
-  "feed_url": "https://v1b3coder.github.io/keryx-demo/channels/security/feed.json",
+  "home_page_url": "https://keryx-demo.github.io/",
+  "feed_url": "https://keryx-demo.github.io/channels/security/feed.json",
   "description": "Phishing warnings, security advisories and key announcements. Official announcements from Trezor Company s.r.o., authenticated via the Keryx protocol.",
-  "icon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
-  "favicon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "icon": "https://keryx-demo.github.io/media/logo.png",
+  "favicon": "https://keryx-demo.github.io/media/logo.png",
   "authors": [
     {
       "name": "Trezor Company s.r.o.",
-      "url": "https://v1b3coder.github.io/keryx-demo/"
+      "url": "https://keryx-demo.github.io/"
     }
   ],
   "language": "en",
   "user_comment": "This feed is a signed broadcast. Items carry Ed25519 signatures in the _sig extension; generic JSON Feed readers may ignore them.",
   "_sig": {
-    "about": "https://v1b3coder.github.io/keryx-demo/_sig"
+    "about": "https://keryx-demo.github.io/_sig"
   },
   "items": [
     {
@@ -25,17 +25,17 @@
           {
             "keyid": "b09990f556606124857f7b36d587bc684a4528595e7f022cfb8f556d2a5daa2c",
             "name": "editor-security-a",
-            "sig": "5CbDq2p5kL_2oQ0rQ2Pcex0zGcWmXn1ZpJ-sLgJ8ZYtyWbqGljEoIu2evMTKSmVlqOecx6iHI834VJ10gLS-AQ"
+            "sig": "3Cx8YybYrppFjwRL5Tlr8WSVVm_xkmRHK2xjkBZJkg2I8bj1edm4zQ4NQe7tCYifnIULNuM6RsTIEYygRnCoCA"
           },
           {
             "keyid": "576d02cad1e88d827f0f58c7490057404950411090093d985f7eb34301f4cc3e",
             "name": "editor-security-b",
-            "sig": "6RwFsxh5YBAuNezF5iLSBesydy85uKZxw_H9DSXpuqhj66ov-8MvIYDJeWw3ryYPdEY9abPOBF36tCWYvCOzDg"
+            "sig": "K2HgdoPdi7BePddQbT8zyDvfGk1gLUOOU4OrEA7V4lNHFpTX82YiiBSgpC7mtiuHsip-kdxn2iztkFvD2GGcBw"
           },
           {
             "keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
             "name": "security",
-            "sig": "1qq0reSmzGs8JUIy7mwKozwchn8cCpobVnYcjlZw06Q6FHrq4K5On6PLRyMEKIa3yjrxflFmWhFdJaQjSJjyBw"
+            "sig": "uLB3f1qsHnBZIGXj9-Oub36BC3gKauWa_CzJ0SOl-aecMcEMNTJQlNXHnaTuKUUn_KdvQADjaLWu8YdhqHdCCg"
           }
         ],
         "withdrawn": false
@@ -49,7 +49,7 @@
       "content_text": "The passphrase is a sharp tool. Used carefully, it adds real security to your wallet. Used carelessly, it's one of the fastest ways to lose access to your own crypto. Before anything else: passphrases cannot be changed or removed — if you lose yours, you lose access to the funds in that wallet. Write it down, store it safely, test it before you send anything significant.",
       "date_published": "2026-08-06T09:00:00Z",
       "id": "msg-2026-08-06-passphrase-faq",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/passphrase.jpg",
+      "image": "https://keryx-demo.github.io/media/img/passphrase.jpg",
       "language": "en",
       "summary": "The passphrase is a sharp tool. Used carefully, it adds real security to your wallet; used carelessly, it is one of the fastest ways to lose access to your own crypto. This FAQ covers what a passphrase is, whether you need one, and how to choose, write down and test one.",
       "tags": [
@@ -58,7 +58,7 @@
         "en"
       ],
       "title": "Passphrase FAQ: What every passphrase user should know",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/passphrase-faq-what-every-passphrase-user-should-know.html"
+      "url": "https://keryx-demo.github.io/blog/passphrase-faq-what-every-passphrase-user-should-know.html"
     },
     {
       "_sig": {
@@ -67,17 +67,17 @@
           {
             "keyid": "b09990f556606124857f7b36d587bc684a4528595e7f022cfb8f556d2a5daa2c",
             "name": "editor-security-a",
-            "sig": "tHZ5sNNNY5J4suySV17VWYlSdXZ7GihxJ7p9Y8e5XQupXeAGDhC2SH0lCes_XUUnHWkgOHJhG8Z2rGfxyL6rAA"
+            "sig": "4T_VzYWWhVqybNjsJudFMEPVeJknxB2KAYBQdbSr2n_2Fx4nUlWbwsJz8_MsJzlx5f9KQBaXfnZgzrwIUmimDw"
           },
           {
             "keyid": "576d02cad1e88d827f0f58c7490057404950411090093d985f7eb34301f4cc3e",
             "name": "editor-security-b",
-            "sig": "YUJTi9GBtjp1Dr8fBAsFtWqmSXesB6qSpSTy7nD7LgcxSfvI4WECItX-Xfx1ebzMaSYWZBqSASKRcHpjS0c-CQ"
+            "sig": "s6SZFQcSHlkHdABSUzZL5fK8zoKk3UmssVuQWSFnw6-FCZhyUMhiH9G4QYhAowmkl4UpVMbG8nFSvjdIkr9eAQ"
           },
           {
             "keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
             "name": "security",
-            "sig": "QjeCTbBYcmo8TGDip1n5viwXYmZqttT1ZxjtGO7APV9cS55ysG9wFhS3MXrdJG1zdZrXzs8DmGmdSaEXIPEpBw"
+            "sig": "L8E1SwoufBLf7-aAmMEAz5xATDnVaBlbD1cR4_qVfy18N3o3_nyEXhNSAKGcC-f-cVxu-bFKSqp-eCeqIwA_AQ"
           }
         ],
         "withdrawn": false
@@ -91,7 +91,7 @@
       "content_text": "Following the recent Coldcard disclosure: Trezor hardware wallets are not affected. Here is what the vulnerability was, why it does not apply to our devices, and what we still recommend.",
       "date_published": "2026-08-05T16:00:00Z",
       "id": "msg-2026-08-05-coldcard",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/coldcard.jpg",
+      "image": "https://keryx-demo.github.io/media/img/coldcard.jpg",
       "language": "en",
       "summary": "Following the recent Coldcard disclosure: Trezor hardware wallets are not affected. Here is what the vulnerability was, why it does not apply to our devices, and what we still recommend.",
       "tags": [
@@ -99,7 +99,7 @@
         "en"
       ],
       "title": "Coldcard vulnerability: Trezor devices are not affected",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/coldcard-vulnerability-trezor-devices-are-not-affected.html"
+      "url": "https://keryx-demo.github.io/blog/coldcard-vulnerability-trezor-devices-are-not-affected.html"
     },
     {
       "_sig": {
@@ -108,17 +108,17 @@
           {
             "keyid": "b09990f556606124857f7b36d587bc684a4528595e7f022cfb8f556d2a5daa2c",
             "name": "editor-security-a",
-            "sig": "kaQ-crFd-cf7cQYRyMYjrSHhyPDSW6waN5490XRHNf2ommcCxmqCnNn-hTDj3hjwB1SP_BzaM4k5Vu82kGJcCQ"
+            "sig": "I70UUvTy8M72alXCY7frVd4xPmCz65sgqMwj1j2vxJCcHbAs6yt08TtT9cuyx0yYyLGO914D29hka0yX8c0OAA"
           },
           {
             "keyid": "576d02cad1e88d827f0f58c7490057404950411090093d985f7eb34301f4cc3e",
             "name": "editor-security-b",
-            "sig": "K5EA0pm2RrSDrQtLc6Ac3fyuYKAs5uxAEHmnJHVfRzqrPIudS6DpipXFhq_H26Xsd4Cbd5v_-_WXv40fN6GzCg"
+            "sig": "yGUKtPVI-Z1g6KiPOJDSciep0mE9gVvfkdP0dG29xYHQ2j7iFdAMKHzSdYIqPOL3f3pTHcd_BO0jIdTlIIzmBA"
           },
           {
             "keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
             "name": "security",
-            "sig": "wSJeRqFb9x7uh_rGt1bBzMcUCFPYsAzbQaTN7ck8-lM0uZJEJZeKFp_m2w67ue4z9Tq4oSYaDqPx4i8GBwIkBw"
+            "sig": "NnecuCn_aop9CtHL9t0xPmbgqH10mACdSbVDfuAJSa03C4EoZ_chFFMO8W0OY2F1iOe9Ha8nx3k4sPfjO-FICw"
           }
         ],
         "withdrawn": false
@@ -132,7 +132,7 @@
       "content_text": "Podvodníci se opět vydávají za Trezor a masově útočí na uživatele e-maily s falešnou naléhavostí. Vsázejí na to, že strach ze ztráty peněz vás donutí jednat bez přemýšlení a předat jim kontrolu nad peněženkou.\n\nŘešení je jednoduché: nikdy, za žádných okolností, nikomu nesdělujte zálohu své peněženky. Červené vlajky: falešné odkazy na aktualizace, falešná zařízení, falešné weby a výsledky vyhledávání, cílený phishing a výhrůžky \"zablokováním\" — hardwarovou peněženku nelze na dálku zablokovat.",
       "date_published": "2026-03-25T14:00:00Z",
       "id": "msg-2026-03-25-how-crypto-is-stolen-cs",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/howstolen.jpg",
+      "image": "https://keryx-demo.github.io/media/img/howstolen.jpg",
       "language": "cs",
       "summary": "Podvodníci se opět vydávají za Trezor a masově útočí na uživatele. Trik je \"vyrobená naléhavost\": e-mail, který vypadá oficiálně a nutí vás jednat okamžitě. Řešení je jediné pravidlo — zálohu své peněženky nikdy nikomu nesdělujte.",
       "tags": [
@@ -141,7 +141,7 @@
         "cs"
       ],
       "title": "Takto se krade nejvíc kryptoměn",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/takto-se-krade-nejvic-kryptomen.html"
+      "url": "https://keryx-demo.github.io/blog/takto-se-krade-nejvic-kryptomen.html"
     },
     {
       "_sig": {
@@ -150,17 +150,17 @@
           {
             "keyid": "b09990f556606124857f7b36d587bc684a4528595e7f022cfb8f556d2a5daa2c",
             "name": "editor-security-a",
-            "sig": "035ndSmEquVmjTKcy02AAHhvggvH5PLIy6cOLEz1RS59v2JUwuJJdInHME-b8qVwu45szgShtt47_QQ1Mn6WAg"
+            "sig": "yWxUd2lQJiZUEQPr83gNt1DncR2dYcWx-CqCd3djeZG0LzyrKdWXEHOsoQvZQN0MWn65Gexu7iM66bisQmYFCw"
           },
           {
             "keyid": "576d02cad1e88d827f0f58c7490057404950411090093d985f7eb34301f4cc3e",
             "name": "editor-security-b",
-            "sig": "KWV-1O02Er34m8iir82lfrW-qdjOcNwZ7fIcCkb2shOH7mHeThy8iTiJrynthL30HKWgjod1Z3SjUThI7vw4Bw"
+            "sig": "KUPYAoolL2cZgNnDrc1DrZPhCABwdfJLPHjcmEewOj46JT7iNKeaOseZf4L8T7Ai3z9UsO7QU0GcFAWRfZLdDQ"
           },
           {
             "keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
             "name": "security",
-            "sig": "kO7Gjalxp62i3waPBe4tKdl5pTWXrnGkhW3CsTmlI3gxxjpN4DqvbIZ3yDT0F--rfbyzxlqqbpUIJJyIFMnYAA"
+            "sig": "AC8oyB0hrAiew4fJ1FKlhYM2dj1GSPBu7SABOAib3-rO0PVWP9uONo0qo6P5I1iJy88HSsMkMrTjOf43k_ulDg"
           }
         ],
         "withdrawn": false
@@ -174,7 +174,7 @@
       "content_text": "While we were in the middle of filming our latest video, we got word that scammers were at it again — impersonating us in a massive blast to Trezor users. The trick here is all about \"manufactured urgency.\" You get an email that looks official and insists you act right now. The scammer is betting that the fear of losing your money will make you panic and follow their instructions without stopping to think, eventually handing over total control of your wallet.\n\nThe solution is actually pretty simple: never, under any circumstances, share your wallet backup with anyone. If you can stick to that one rule, you'll probably never lose your funds to a scam. Red flags to watch for: fake update links, fake devices on random sites, fake websites and search results, targeted phishing and spoofing, and threats of \"blocking\" or \"deactivating\" — a hardware wallet cannot be blocked or turned off remotely.",
       "date_published": "2026-03-25T14:00:00Z",
       "id": "msg-2026-03-25-how-crypto-is-stolen-en",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/howstolen.jpg",
+      "image": "https://keryx-demo.github.io/media/img/howstolen.jpg",
       "language": "en",
       "summary": "Scammers are impersonating Trezor in a massive blast to users. The trick is manufactured urgency: an official-looking email that insists you act right now, betting you'll panic and hand over control of your wallet. The fix is one rule — never share your wallet backup with anyone.",
       "tags": [
@@ -183,7 +183,7 @@
         "en"
       ],
       "title": "This is the way most crypto is stolen",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/this-is-the-way-most-crypto-is-stolen.html"
+      "url": "https://keryx-demo.github.io/blog/this-is-the-way-most-crypto-is-stolen.html"
     },
     {
       "_sig": {
@@ -192,17 +192,17 @@
           {
             "keyid": "b09990f556606124857f7b36d587bc684a4528595e7f022cfb8f556d2a5daa2c",
             "name": "editor-security-a",
-            "sig": "HsnoDKFG69LsT2H2iLIhBGqNEo0D1s211E8cmWMIUKNSBLOpJOiq6G-OYqBJwajgyTv4c3w8MNbw0tZDLK1RDA"
+            "sig": "EoiOV4IvkEa7B6Tp36v72HpFwiahxIEcO7YlNPAmP-xSw_gLuxiS_ZidSsZCoQSiJfuqpXCXr6PpbvsQcNoWBA"
           },
           {
             "keyid": "576d02cad1e88d827f0f58c7490057404950411090093d985f7eb34301f4cc3e",
             "name": "editor-security-b",
-            "sig": "2hFQNAXC0ZytEE_clTMrZEwjXrUZZ6kNqpv_5CVOvTlUkhW7yDdQ-f7OTxI-8KhSZtZF9nMj1CKQhIaffjxuCg"
+            "sig": "nErcEjAjdhS4FJPPP1lyxfR4YqbzOW2hTYVRjh7uMSP8AeAtrLPrTBtpk7KCyPprUMfXCqqwe-b-E6TwzrTyCg"
           },
           {
             "keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
             "name": "security",
-            "sig": "5QPz0SqBi-_4BS8lyNrtYsgppJIIpSFisjsOz2ZR8qZp2pjGBEowcMt2jiYxdxgLDNh9ug1H0yfsh35cKNTYCQ"
+            "sig": "uChTqalM9g1Ivq5Mz9Cpnfmp7ZUEMgvU4ZciYDcHCoydiNdXdMG2h9i21HanT1QYf_1dDIip6EffDv6ap1YuBA"
           }
         ],
         "withdrawn": false
@@ -216,7 +216,7 @@
       "content_text": "Phishing is still the most common way crypto is stolen. Learn to spot fake emails, fake websites and fake support — and the simple habits that keep your funds safe. Never enter your wallet backup anywhere except your genuine Trezor device, and never sign a transaction that a link asks for.",
       "date_published": "2026-03-18T10:30:00Z",
       "id": "msg-2026-03-18-phishing-attacks",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/phishing.webp",
+      "image": "https://keryx-demo.github.io/media/img/phishing.webp",
       "language": "en",
       "summary": "Phishing is still the most common way crypto is stolen. Learn to spot fake emails, fake websites and fake support — and the simple habits that keep your funds safe.",
       "tags": [
@@ -225,7 +225,7 @@
         "en"
       ],
       "title": "Phishing attacks and how to keep your crypto safe",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/phishing-attacks-and-how-to-keep-your-crypto-safe.html"
+      "url": "https://keryx-demo.github.io/blog/phishing-attacks-and-how-to-keep-your-crypto-safe.html"
     }
   ]
 }

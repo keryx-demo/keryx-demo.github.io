@@ -1,21 +1,21 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Trezor — Insights & guides",
-  "home_page_url": "https://v1b3coder.github.io/keryx-demo/",
-  "feed_url": "https://v1b3coder.github.io/keryx-demo/channels/insights/feed.json",
+  "home_page_url": "https://keryx-demo.github.io/",
+  "feed_url": "https://keryx-demo.github.io/channels/insights/feed.json",
   "description": "Self-custody guides, explainers and opinion. Official announcements from Trezor Company s.r.o., authenticated via the Keryx protocol.",
-  "icon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
-  "favicon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "icon": "https://keryx-demo.github.io/media/logo.png",
+  "favicon": "https://keryx-demo.github.io/media/logo.png",
   "authors": [
     {
       "name": "Trezor Company s.r.o.",
-      "url": "https://v1b3coder.github.io/keryx-demo/"
+      "url": "https://keryx-demo.github.io/"
     }
   ],
   "language": "en",
   "user_comment": "This feed is a signed broadcast. Items carry Ed25519 signatures in the _sig extension; generic JSON Feed readers may ignore them.",
   "_sig": {
-    "about": "https://v1b3coder.github.io/keryx-demo/_sig"
+    "about": "https://keryx-demo.github.io/_sig"
   },
   "items": [
     {
@@ -25,7 +25,7 @@
           {
             "keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
             "name": "insights",
-            "sig": "M4MIDWCbBwANSeosJS3bNXNnlS6VExyQknusgDRgD3AfmWQKncIFshpl1PV_MjifJPQjSOjIYxlzKeiHP8pGCA"
+            "sig": "aLmxpCmDjh8IaLIO_Bs1rxs3JHt6E8SnGS8J6qbdCqnYX6cKjVLIg71zHFOChG4ynf4QOLa9gH9DzloDY_qcAw"
           }
         ],
         "withdrawn": false
@@ -39,7 +39,7 @@
       "content_text": "A hardware wallet is only as trustworthy as what you can verify on it. The screen is the part you trust: review every transaction on the device before signing. Anything less is blind trust.",
       "date_published": "2026-05-12T09:00:00Z",
       "id": "msg-2026-05-12-wallet-screen",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/screen.jpg",
+      "image": "https://keryx-demo.github.io/media/img/screen.jpg",
       "language": "en",
       "summary": "A hardware wallet is only as trustworthy as what you can verify on it. The screen is the part you trust: review every transaction on the device before signing. Anything less is blind trust.",
       "tags": [
@@ -48,7 +48,7 @@
         "en"
       ],
       "title": "Why your hardware wallet needs a screen",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/why-your-hardware-wallet-needs-a-screen.html"
+      "url": "https://keryx-demo.github.io/blog/why-your-hardware-wallet-needs-a-screen.html"
     },
     {
       "_sig": {
@@ -57,7 +57,7 @@
           {
             "keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
             "name": "insights",
-            "sig": "7SWL66AS5usmCfL7VEKVBGvUzOUlafw1-sFoOumaMLCi6QzSv592seaW1Lm5HzhfDyIIUe96lPWT-qLhFY-7Ag"
+            "sig": "Ejc4VmuPpJUBcWNoaNX0KXyt8JHfsSQpqawwj5cJ_x6ss3tMEmTqoPpJANp-r0fFP0yWAnTvRADc2YCTXOG7Aw"
           }
         ],
         "withdrawn": false
@@ -71,7 +71,7 @@
       "content_text": "Self-custody means your keys, your coins. A practical guide to moving off exchanges onto a hardware wallet, setting up a backup, and why \"not your keys, not your coins\" is more than a slogan.",
       "date_published": "2026-03-17T09:00:00Z",
       "id": "msg-2026-03-17-own-your-coins",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/selfcustody.jpg",
+      "image": "https://keryx-demo.github.io/media/img/selfcustody.jpg",
       "language": "en",
       "summary": "Self-custody means your keys, your coins. A practical guide to moving off exchanges onto a hardware wallet, setting up a backup, and why \"not your keys, not your coins\" is more than a slogan.",
       "tags": [
@@ -80,7 +80,7 @@
         "en"
       ],
       "title": "Own your coins 100%: A quick guide to self-custody",
-      "url": "https://v1b3coder.github.io/keryx-demo/blog/own-your-coins-100-a-quick-guide-to-self-custody.html"
+      "url": "https://keryx-demo.github.io/blog/own-your-coins-100-a-quick-guide-to-self-custody.html"
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Trezor — order #2026-0841 delivery",
-  "home_page_url": "https://v1b3coder.github.io/keryx-demo/",
-  "feed_url": "https://v1b3coder.github.io/keryx-demo/channels/tracking/toPoMxRNV0PIIuM6PsqQ9g/feed.json",
+  "home_page_url": "https://keryx-demo.github.io/",
+  "feed_url": "https://keryx-demo.github.io/channels/tracking/rzRn3xh7tQUh2rxVIezRhw/feed.json",
   "description": "Private delivery notifications for order #2026-0841. Access by unguessable capability URL only.",
-  "icon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
-  "favicon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "icon": "https://keryx-demo.github.io/media/logo.png",
+  "favicon": "https://keryx-demo.github.io/media/logo.png",
   "authors": [
     {
       "name": "Trezor Company s.r.o.",
-      "url": "https://v1b3coder.github.io/keryx-demo/"
+      "url": "https://keryx-demo.github.io/"
     }
   ],
   "language": "en",
   "expired": false,
   "_sig": {
-    "about": "https://v1b3coder.github.io/keryx-demo/_sig",
+    "about": "https://keryx-demo.github.io/_sig",
     "channel": "tracking",
-    "url": "https://v1b3coder.github.io/keryx-demo/channels/tracking/toPoMxRNV0PIIuM6PsqQ9g/feed.json",
+    "url": "https://keryx-demo.github.io/channels/tracking/rzRn3xh7tQUh2rxVIezRhw/feed.json",
     "version": 1,
     "expires": "2026-10-15T00:00:00Z",
     "signatures": [
       {
         "keyid": "cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d",
         "name": "tracking",
-        "sig": "C3DYLOogJ_rb7n7BWVmrOq86YM5v0C0hA1Dkw_VjZ1v4c_Ask7_kPnz5KcVxN7gRvi18rBl3u3PQ11vmUvCXAQ"
+        "sig": "grDFY2J3VFZ64_rH0_f59btj5WVNfzJayN1_WW0keBxb-CDQ1k3iQv7xOvMG1wk5CRbR3_YwQMjEo9XY9n3GAQ"
       }
     ]
   },
@@ -36,7 +36,7 @@
           {
             "keyid": "cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d",
             "name": "tracking",
-            "sig": "CMQMbu1ErYW0luy6hexCYmdrPAq8ASsJ0ncM5cYdLjtuw3VuC5GVuTOy8I5tSTuCMOWUTyygiThxTylUjE4kAA"
+            "sig": "FoHy76BJhFdDUh51VvU8MMWiTbKdTmtjU3cvsY_PcSJcKjXehUmI14Th4O8FUUj5OIGTUMOz8-w01JM7KZrpCQ"
           }
         ],
         "withdrawn": false
@@ -50,7 +50,7 @@
       "content_text": "Your Trezor Safe 5 (order #2026-0841) is on its way.\n\nCarrier: DHL Express\nTracking number: DHL-8491-2203-77\nEstimated delivery: 3–5 business days\n\nThis is a signed capability feed: only you (with this unguessable URL) can read it, and it expires automatically after the delivery window.",
       "date_published": "2026-09-01T08:12:00Z",
       "id": "order-2026-0841-shipped",
-      "image": "https://v1b3coder.github.io/keryx-demo/media/img/logo.png",
+      "image": "https://keryx-demo.github.io/media/img/logo.png",
       "language": "en",
       "summary": "Your Trezor Safe 5 is on its way. Track the parcel with carrier ID DHL-8491-2203-77; estimated delivery is 3–5 business days.",
       "tags": [
@@ -59,7 +59,7 @@
         "en"
       ],
       "title": "Your Trezor order #2026-0841 has shipped",
-      "url": "https://v1b3coder.github.io/keryx-demo/channels/tracking/toPoMxRNV0PIIuM6PsqQ9g/order-2026-0841.html"
+      "url": "https://keryx-demo.github.io/channels/tracking/rzRn3xh7tQUh2rxVIezRhw/order-2026-0841.html"
     }
   ]
 }

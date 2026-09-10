@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "7a66d78b32cc759fdf4d3c940a3d94f4476e17c7debc19eb465abd212a903491",
-			"sig": "f6dbe7cb197005e60cce18502fdc6e47b39e4a9bdaee68272ade44a15af92d39376b371c0aeeeff6744cd5777f98979bb729f496fe9e9f84a3b2ab064ee04f03"
+			"sig": "9256fa2a2921807e7d2e7dd6adbc01354ba2c3ea946ea2fd55442638a7a3b9a2decce1095716f0ac4d13fe25de128515210b387f1f3e79e651c45d939058d20f"
 		}
 	],
 	"signed": {
@@ -36,7 +36,7 @@
 					"threshold": 2
 				}
 			},
-			"logo": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+			"logo": "https://keryx-demo.github.io/media/logo.png",
 			"private_feed_patterns": [
 				{
 					"channel": "tracking",
@@ -54,7 +54,7 @@
 							"scheme": "ed25519"
 						}
 					},
-					"pattern": "https://v1b3coder.github.io/keryx-demo/channels/tracking/*/feed.json",
+					"pattern": "https://keryx-demo.github.io/channels/tracking/*/feed.json",
 					"purpose": "per-order delivery notifications (capability feed)",
 					"threshold": 1
 				}
@@ -123,7 +123,7 @@
 				}
 			]
 		},
-		"expires": "2027-09-10T10:12:08Z",
+		"expires": "2027-09-10T10:24:26Z",
 		"spec_version": "1.0.31",
 		"targets": {},
 		"version": 1

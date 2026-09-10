@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
-			"sig": "28a7b3b3677d88a2ad8322520bfa5e4008e927cf512411a1954f310225971a39770cd161f812b8803cbdceba25735e16820145eaa6d284342b0717d7cb4dce08"
+			"sig": "b47851bbc752bcd96d5c067dec59337b23e0fbfc74233a51168ec195fcc786f1586f8212cca4a8dd7b3f6e1731964da630c476cd3f81f455da5474c10d4c6d04"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-10T10:12:08Z",
+		"expires": "2027-03-10T10:24:26Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/insights/feed.json": {
@@ -20,9 +20,9 @@
 					"display_name": "Insights \u0026 guides"
 				},
 				"hashes": {
-					"sha256": "88d8072742e83c3179f80ee9c232431a7786276895ad966ba0f34110c8688a0b"
+					"sha256": "8cf339e124c7176c2801307c2fdeaa1ef25fbb925b1a1e8fbff1dac9389f363d"
 				},
-				"length": 4061
+				"length": 3961
 			}
 		},
 		"version": 1
