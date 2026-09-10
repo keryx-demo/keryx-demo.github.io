@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
-			"sig": "691dc29735f861ce7a5403e86b18fdccec739ca78bd7e06a473b6a3577352c7eb2646d06e1eb83cfe96f822fce0bbc7395ba17079c6101cd22cfb81a8ecff10f"
+			"sig": "3bf5f348ed217c2e22f6947e51d714b488abdbdc2df9ee2e5b6eaa545acd84c01974b206c77b7eccaec139ae61b758fe7c3ab87de673d98701fd3bef3016c304"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-10T10:33:16Z",
+		"expires": "2027-03-10T10:52:00Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/feed.json": {

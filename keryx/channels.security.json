@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
-			"sig": "77c68763a27e1ff26661275225b30911f04c29b068019d1402400af3ef83d535c69eb2148966535b4a7e6d61b89fb35fb76c953a49645f3e4fe702528b119c02"
+			"sig": "4e6bcc31285ba34edfcd0bec0f3fbb298b08d2d13889117c10b47376705625163a91b13f426ee58518d6e2ed59009abedf6ca0d08a542b6f9fb6c17ac860d10d"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-10T10:33:16Z",
+		"expires": "2027-03-10T10:52:00Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/feed.json": {
