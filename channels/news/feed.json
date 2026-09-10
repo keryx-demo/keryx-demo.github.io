@@ -1,0 +1,183 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Trezor — Product news & updates",
+  "home_page_url": "https://v1b3coder.github.io/keryx-demo/",
+  "feed_url": "https://v1b3coder.github.io/keryx-demo/channels/news/feed.json",
+  "description": "New releases, features and company announcements. Official announcements from Trezor Company s.r.o., authenticated via the Keryx protocol.",
+  "icon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "favicon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "authors": [
+    {
+      "name": "Trezor Company s.r.o.",
+      "url": "https://v1b3coder.github.io/keryx-demo/"
+    }
+  ],
+  "language": "en",
+  "user_comment": "This feed is a signed broadcast. Items carry Ed25519 signatures in the _sig extension; generic JSON Feed readers may ignore them.",
+  "_sig": {
+    "about": "https://v1b3coder.github.io/keryx-demo/_sig"
+  },
+  "items": [
+    {
+      "_sig": {
+        "channel": "news",
+        "signatures": [
+          {
+            "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+            "name": "news",
+            "sig": "J_S3p08JzDYmma9UF5Iu31SoFdTbc4SrF0YEz_E3PgqUgs-o3DXgAlDdC0VSx7vdPFVN2TEoaw-L61vX1hQJAA"
+          }
+        ],
+        "withdrawn": false
+      },
+      "authors": [
+        {
+          "name": "Henry Windle"
+        }
+      ],
+      "content_html": "<p>Selhání burz stále dokazují jedno: pokud nekontrolujete klíče, nekontrolujete mince. Proč je self-custody jedinou zárukou — a jak ji hardwarová peněženka dělá praktickou.</p>",
+      "content_text": "Selhání burz stále dokazují jedno: pokud nekontrolujete klíče, nekontrolujete mince. Proč je self-custody jedinou zárukou — a jak ji hardwarová peněženka dělá praktickou.",
+      "date_published": "2026-07-28T09:00:00Z",
+      "id": "msg-2026-07-28-self-custody-matters-cs",
+      "image": "https://v1b3coder.github.io/keryx-demo/media/img/selfcustody26.jpg",
+      "language": "cs",
+      "summary": "Selhání burz stále dokazují jedno: pokud nekontrolujete klíče, nekontrolujete mince. Proč je self-custody jedinou zárukou — a jak ji hardwarová peněženka dělá praktickou.",
+      "tags": [
+        "self-custody",
+        "bitcoin",
+        "cs"
+      ],
+      "title": "Proč je self-custody důležitější než kdy dřív",
+      "url": "https://v1b3coder.github.io/keryx-demo/blog/proc-je-self-custody-dulezitejsi-nez-kdy-driv.html"
+    },
+    {
+      "_sig": {
+        "channel": "news",
+        "signatures": [
+          {
+            "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+            "name": "news",
+            "sig": "b-fCpUsd9KsC0MmmTRHpeoCyWArJzOpXSuqXkz9pq-Xbuy359vxjw0MN8z3bHgcLbqP40aBoCfcBWHwbRJgMDA"
+          }
+        ],
+        "withdrawn": false
+      },
+      "authors": [
+        {
+          "name": "Henry Windle"
+        }
+      ],
+      "content_html": "<p>Exchange failures keep proving the same lesson: if you don't control the keys, you don't control the coins. Why self-custody is the only guarantee, and how a hardware wallet makes it practical.</p>",
+      "content_text": "Exchange failures keep proving the same lesson: if you don't control the keys, you don't control the coins. Why self-custody is the only guarantee, and how a hardware wallet makes it practical.",
+      "date_published": "2026-07-28T09:00:00Z",
+      "id": "msg-2026-07-28-self-custody-matters-en",
+      "image": "https://v1b3coder.github.io/keryx-demo/media/img/selfcustody26.jpg",
+      "language": "en",
+      "summary": "Exchange failures keep proving the same lesson: if you don't control the keys, you don't control the coins. Why self-custody is the only guarantee, and how a hardware wallet makes it practical.",
+      "tags": [
+        "self-custody",
+        "bitcoin",
+        "en"
+      ],
+      "title": "Why self-custody matters more than ever",
+      "url": "https://v1b3coder.github.io/keryx-demo/blog/why-self-custody-matters-more-than-ever.html"
+    },
+    {
+      "_sig": {
+        "channel": "news",
+        "signatures": [
+          {
+            "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+            "name": "news",
+            "sig": "FXNg1JhQ0Jpzc84rc-Hb1LO1wrGLgXDxMkizpmFN9TW2pKHO5Qwy8TjNUCU7d4LHjfWM7QuvgffQPkhNmMRsBw"
+          }
+        ],
+        "withdrawn": false
+      },
+      "authors": [
+        {
+          "name": "Henry Windle"
+        }
+      ],
+      "content_html": "<p>Suite Sync is now live in Trezor Suite on desktop and mobile. Your wallet labels are encrypted on your device using keys derived from your wallet backup, synced across every device you use, and stored on Trezor's own open-source server — not Google's or Dropbox's.</p><p>Migration from legacy labeling is a single action, and advanced users can self-host to remove any dependency on Trezor.</p>",
+      "content_text": "Suite Sync is now live in Trezor Suite on desktop and mobile. Your wallet labels are encrypted on your device using keys derived from your wallet backup, synced across every device you use, and stored on Trezor's own server, not Google's or Dropbox's. If you're already using legacy labeling, migration is a single action. Users who want to remove any dependency on Trezor can run their own server.",
+      "date_published": "2026-06-30T12:00:00Z",
+      "id": "msg-2026-06-30-suite-sync",
+      "image": "https://v1b3coder.github.io/keryx-demo/media/img/suitesync.jpg",
+      "language": "en",
+      "summary": "Suite Sync is now live in Trezor Suite on desktop and mobile. Wallet labels are encrypted on your device with keys derived from your wallet backup, synced across every device, and stored on Trezor's own open-source server — not Google's or Dropbox's. Migration is a single action; users who want no dependency on Trezor can self-host.",
+      "tags": [
+        "trezor-suite",
+        "privacy",
+        "product",
+        "en"
+      ],
+      "title": "Permissionless storage with Suite Sync",
+      "url": "https://v1b3coder.github.io/keryx-demo/blog/permissionless-storage-with-suite-sync.html"
+    },
+    {
+      "_sig": {
+        "channel": "news",
+        "signatures": [
+          {
+            "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+            "name": "news",
+            "sig": "1X-WrHLToE7bIQVkvxueZkPSbSVHAbVGOA5H0PtT3Kp4STKj4LelwjRmoWmGX76KaO4Iq5Hy5LLK1LuOJILSAw"
+          }
+        ],
+        "withdrawn": false
+      },
+      "authors": [
+        {
+          "name": "Trezor Team"
+        }
+      ],
+      "content_html": "<p>Earn yield on stablecoins directly in Trezor Suite — with the same self-custody guarantees. Your keys stay in your Trezor; only transactions you approve on-device ever move funds.</p>",
+      "content_text": "Earn yield on stablecoins directly in Trezor Suite — with the same self-custody guarantees. Your keys stay in your Trezor; only transactions you approve on-device ever move funds.",
+      "date_published": "2026-05-28T10:00:00Z",
+      "id": "msg-2026-05-28-stablecoin-yield",
+      "image": "https://v1b3coder.github.io/keryx-demo/media/img/stablecoin.jpg",
+      "language": "en",
+      "summary": "Earn yield on stablecoins directly in Trezor Suite — with the same self-custody guarantees. Your keys stay in your Trezor; only transactions you approve on-device ever move funds.",
+      "tags": [
+        "trezor-suite",
+        "product",
+        "en"
+      ],
+      "title": "A safer way to earn yield with stablecoins in Trezor Suite",
+      "url": "https://v1b3coder.github.io/keryx-demo/blog/a-safer-way-to-earn-yield-with-stablecoins-in-trezor-suite.html"
+    },
+    {
+      "_sig": {
+        "channel": "news",
+        "signatures": [
+          {
+            "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+            "name": "news",
+            "sig": "0TxaR6Dtbhx_S-36UzxOUvnSZ40NbT5GXt8ZTLCgND0Wyc5APUKJYEP6UOrDcvF5GzkoXX-4irCRXvDUV9Z_Bw"
+          }
+        ],
+        "withdrawn": false
+      },
+      "authors": [
+        {
+          "name": "Henry Windle"
+        }
+      ],
+      "content_html": "<p>Google's updated quantum-computing timeline has the crypto world talking. Here's what it actually means for your bitcoin today — and why the answer is preparation, not panic.</p>",
+      "content_text": "Google's updated quantum-computing timeline has the crypto world talking. Here's what it actually means for your bitcoin today — and why the answer is preparation, not panic.",
+      "date_published": "2026-05-11T08:00:00Z",
+      "id": "msg-2026-05-11-quantum-deadline",
+      "image": "https://v1b3coder.github.io/keryx-demo/media/img/quantum.jpg",
+      "language": "en",
+      "summary": "Google's updated quantum-computing timeline has the crypto world talking. Here's what it actually means for your bitcoin today — and why the answer is preparation, not panic.",
+      "tags": [
+        "bitcoin",
+        "security",
+        "en"
+      ],
+      "title": "Google just changed the quantum deadline. Here's what it means for your bitcoin…",
+      "url": "https://v1b3coder.github.io/keryx-demo/blog/google-just-changed-the-quantum-deadline.html"
+    }
+  ]
+}

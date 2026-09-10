@@ -1,0 +1,30 @@
+{
+	"signatures": [
+		{
+			"keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
+			"sig": "8647656affb4be41390f7ce8ea2b7f919e06700e1d1b4a8aa64a35284252f217b6946c452f3576e71dd47a8359a2f8e83f5b6ef32c9296574a52767adbadeb06"
+		}
+	],
+	"signed": {
+		"_type": "targets",
+		"delegations": {
+			"keys": {},
+			"roles": []
+		},
+		"expires": "2027-03-10T10:12:08Z",
+		"spec_version": "1.0.31",
+		"targets": {
+			"channels/security/feed.json": {
+				"custom": {
+					"description": "Phishing warnings, security advisories and key announcements",
+					"display_name": "Security alerts"
+				},
+				"hashes": {
+					"sha256": "1ef5abcabbf135cc89099ebeb218ce589207b35b6b958c77f28f93a5d09a9dc5"
+				},
+				"length": 13585
+			}
+		},
+		"version": 1
+	}
+}

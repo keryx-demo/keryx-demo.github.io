@@ -1,0 +1,30 @@
+{
+	"signatures": [
+		{
+			"keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
+			"sig": "28a7b3b3677d88a2ad8322520bfa5e4008e927cf512411a1954f310225971a39770cd161f812b8803cbdceba25735e16820145eaa6d284342b0717d7cb4dce08"
+		}
+	],
+	"signed": {
+		"_type": "targets",
+		"delegations": {
+			"keys": {},
+			"roles": []
+		},
+		"expires": "2027-03-10T10:12:08Z",
+		"spec_version": "1.0.31",
+		"targets": {
+			"channels/insights/feed.json": {
+				"custom": {
+					"description": "Self-custody guides, explainers and opinion",
+					"display_name": "Insights \u0026 guides"
+				},
+				"hashes": {
+					"sha256": "88d8072742e83c3179f80ee9c232431a7786276895ad966ba0f34110c8688a0b"
+				},
+				"length": 4061
+			}
+		},
+		"version": 1
+	}
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Keryx _sig extension</title></head>
+<body style="font-family:sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem">
+<h1>Keryx <code>_sig</code> extension</h1>
+<p>This is the identity URL of the <code>_sig</code> JSON Feed extension used by the
+Keryx protocol (see <code>README.md</code> in this repository). Generic JSON Feed
+readers ignore the extension; the Keryx app enforces it.</p>
+<h2>Items (PROTOCOL §8.2)</h2>
+<ul>
+<li><code>channel</code> — the delegated channel role the item belongs to (cross-checked against the feed path)</li>
+<li><code>withdrawn</code> — signed retraction: the app hides the item entirely</li>
+<li><code>signatures</code> — raw Ed25519 (base64url) over the JCS (RFC 8785) canonical bytes of the item with this field removed</li>
+</ul>
+<h2>Private capability feeds (PROTOCOL §10)</h2>
+<p>The top-level <code>_sig</code> of a private feed additionally carries:</p>
+<ul>
+<li><code>channel</code> — MUST equal the authorized pattern entry's channel</li>
+<li><code>url</code> — the canonical capability URL (MUST equal the fetched URL)</li>
+<li><code>signatures</code> — Ed25519 over the whole document (top-level <code>_sig.signatures</code> removed)</li>
+<li><code>version</code> — monotonic per feed (anti-rollback via client version memory)</li>
+<li><code>expires</code> — the order window end (anti-freeze)</li>
+</ul>
+</body></html>

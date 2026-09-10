@@ -1,0 +1,30 @@
+{
+	"signatures": [
+		{
+			"keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+			"sig": "4f8ba0403a7391776c56f3ea57e2c17e6dd86605cdc2068fe783fe32b02a5734bc22d9d9683cf1f4a420c0268992021ebcfb1e53593e18ddc4ac47b2a3292000"
+		}
+	],
+	"signed": {
+		"_type": "targets",
+		"delegations": {
+			"keys": {},
+			"roles": []
+		},
+		"expires": "2027-03-10T10:12:08Z",
+		"spec_version": "1.0.31",
+		"targets": {
+			"channels/news/feed.json": {
+				"custom": {
+					"description": "New releases, features and company announcements",
+					"display_name": "Product news \u0026 updates"
+				},
+				"hashes": {
+					"sha256": "66c01e4e1d7e408b131569cad481aa3c25795bd500e5c974a59d30a273b8627f"
+				},
+				"length": 9289
+			}
+		},
+		"version": 1
+	}
+}

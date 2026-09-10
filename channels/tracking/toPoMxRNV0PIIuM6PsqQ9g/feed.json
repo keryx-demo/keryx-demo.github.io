@@ -1,0 +1,65 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Trezor — order #2026-0841 delivery",
+  "home_page_url": "https://v1b3coder.github.io/keryx-demo/",
+  "feed_url": "https://v1b3coder.github.io/keryx-demo/channels/tracking/toPoMxRNV0PIIuM6PsqQ9g/feed.json",
+  "description": "Private delivery notifications for order #2026-0841. Access by unguessable capability URL only.",
+  "icon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "favicon": "https://v1b3coder.github.io/keryx-demo/media/logo.png",
+  "authors": [
+    {
+      "name": "Trezor Company s.r.o.",
+      "url": "https://v1b3coder.github.io/keryx-demo/"
+    }
+  ],
+  "language": "en",
+  "expired": false,
+  "_sig": {
+    "about": "https://v1b3coder.github.io/keryx-demo/_sig",
+    "channel": "tracking",
+    "url": "https://v1b3coder.github.io/keryx-demo/channels/tracking/toPoMxRNV0PIIuM6PsqQ9g/feed.json",
+    "version": 1,
+    "expires": "2026-10-15T00:00:00Z",
+    "signatures": [
+      {
+        "keyid": "cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d",
+        "name": "tracking",
+        "sig": "C3DYLOogJ_rb7n7BWVmrOq86YM5v0C0hA1Dkw_VjZ1v4c_Ask7_kPnz5KcVxN7gRvi18rBl3u3PQ11vmUvCXAQ"
+      }
+    ]
+  },
+  "items": [
+    {
+      "_sig": {
+        "channel": "tracking",
+        "signatures": [
+          {
+            "keyid": "cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d",
+            "name": "tracking",
+            "sig": "CMQMbu1ErYW0luy6hexCYmdrPAq8ASsJ0ncM5cYdLjtuw3VuC5GVuTOy8I5tSTuCMOWUTyygiThxTylUjE4kAA"
+          }
+        ],
+        "withdrawn": false
+      },
+      "authors": [
+        {
+          "name": "Trezor Team"
+        }
+      ],
+      "content_html": "<p>Your Trezor Safe 5 (order #2026-0841) is on its way.</p><ul><li>Carrier: DHL Express</li><li>Tracking number: DHL-8491-2203-77</li><li>Estimated delivery: 3–5 business days</li></ul><p>This is a signed capability feed: only you (with this unguessable URL) can read it, and it expires automatically after the delivery window.</p>",
+      "content_text": "Your Trezor Safe 5 (order #2026-0841) is on its way.\n\nCarrier: DHL Express\nTracking number: DHL-8491-2203-77\nEstimated delivery: 3–5 business days\n\nThis is a signed capability feed: only you (with this unguessable URL) can read it, and it expires automatically after the delivery window.",
+      "date_published": "2026-09-01T08:12:00Z",
+      "id": "order-2026-0841-shipped",
+      "image": "https://v1b3coder.github.io/keryx-demo/media/img/logo.png",
+      "language": "en",
+      "summary": "Your Trezor Safe 5 is on its way. Track the parcel with carrier ID DHL-8491-2203-77; estimated delivery is 3–5 business days.",
+      "tags": [
+        "delivery",
+        "trezor-safe-5",
+        "en"
+      ],
+      "title": "Your Trezor order #2026-0841 has shipped",
+      "url": "https://v1b3coder.github.io/keryx-demo/channels/tracking/toPoMxRNV0PIIuM6PsqQ9g/order-2026-0841.html"
+    }
+  ]
+}
