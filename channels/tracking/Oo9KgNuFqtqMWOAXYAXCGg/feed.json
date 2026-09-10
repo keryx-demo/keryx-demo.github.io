@@ -2,7 +2,7 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Trezor — order #2026-0841 delivery",
   "home_page_url": "https://keryx-demo.github.io/",
-  "feed_url": "https://keryx-demo.github.io/channels/tracking/KLfRSpAa0CIsyjaoV9MNlQ/feed.json",
+  "feed_url": "https://keryx-demo.github.io/channels/tracking/Oo9KgNuFqtqMWOAXYAXCGg/feed.json",
   "description": "Private delivery notifications for order #2026-0841. Access by unguessable capability URL only.",
   "icon": "https://keryx-demo.github.io/media/logo.png",
   "favicon": "https://keryx-demo.github.io/media/logo.png",
@@ -17,14 +17,14 @@
   "_sig": {
     "about": "https://keryx-demo.github.io/_sig",
     "channel": "tracking",
-    "url": "https://keryx-demo.github.io/channels/tracking/KLfRSpAa0CIsyjaoV9MNlQ/feed.json",
+    "url": "https://keryx-demo.github.io/channels/tracking/Oo9KgNuFqtqMWOAXYAXCGg/feed.json",
     "version": 1,
     "expires": "2026-10-15T00:00:00Z",
     "signatures": [
       {
         "keyid": "cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d",
         "name": "tracking",
-        "sig": "OucUDA-SvKOMzEa_UaHjYQstOFEhAL_xMCOv7L2CPx56JdGCmRkbJ50WZzbZtqMH4QUKSDFVlJNR9_vB5DylCw"
+        "sig": "aBKKuQGEgUyO5wXBDO8BOeNCFEaCpR5UqRAwdT_Ej7VivvVbvN46FaBtCfGJ-jufTio1_SFVp7W24gh3XtCnBQ"
       }
     ]
   },
@@ -36,7 +36,7 @@
           {
             "keyid": "cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d",
             "name": "tracking",
-            "sig": "zZkT8dWFIStJR-8gINBSk4uBbNm5OJ-MGilETDamHE8RGkXb1CsEUvUbcuKI-lScXhJLucjmoyJs-7jqVnZRAw"
+            "sig": "bxYdz6omRl7myvU2-CkIaAtoJBFS3yj_3Zwo38VFO7h5UPaU07YB7Qusq4vA45LimOg3dbXQPYs3MiKrrrn2Bw"
           }
         ],
         "withdrawn": false
@@ -59,7 +59,7 @@
         "en"
       ],
       "title": "Your Trezor order #2026-0841 has shipped",
-      "url": "https://keryx-demo.github.io/channels/tracking/KLfRSpAa0CIsyjaoV9MNlQ/order-2026-0841.html"
+      "url": "https://keryx-demo.github.io/channels/tracking/Oo9KgNuFqtqMWOAXYAXCGg/order-2026-0841.html"
     }
   ]
 }
