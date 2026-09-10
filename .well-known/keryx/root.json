@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "7a66d78b32cc759fdf4d3c940a3d94f4476e17c7debc19eb465abd212a903491",
-			"sig": "daee10a9562f37573b4723a53866cdf9b08043bb52d587c294e69a4794b3d4911c435b05c16f9d6b625c70fc357afbfebf9e20a7e0449b888bd0850b6ff8a905"
+			"sig": "ed18926613af8405f7b8227e6494e678c18d3ea22030648108ddcb2d018c5d87cfc88bf7ba193dadcf463c715f52004a88a9bc093a5e462185c4b5f96952c90c"
 		}
 	],
 	"signed": {
@@ -12,7 +12,7 @@
 			"mode": "full",
 			"repo_base": "https://keryx-demo.github.io/keryx/"
 		},
-		"expires": "2028-09-10T10:58:12Z",
+		"expires": "2028-09-10T11:06:34Z",
 		"keys": {
 			"7a66d78b32cc759fdf4d3c940a3d94f4476e17c7debc19eb465abd212a903491": {
 				"keytype": "ed25519",
