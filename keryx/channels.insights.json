@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
-			"sig": "d7c24d9352e79e91682a4bf28d6e327ba57d3c63e25e4415d57c95fbd09b86530653209d665f0410161372fde189f204e54fc9c8a17d36d18b199a0be7909f0e"
+			"sig": "bf4efb3db8f176379e323ed3eb8ac14927a79aba40c71d9e5be18f1536d54e419d72d0c6a333d8a31ebcc371f0cb2eb1d9389f76d5a625a7172fb66172a47b0b"
 		}
 	],
 	"signed": {
@@ -11,18 +11,20 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-10T11:57:30Z",
+		"expires": "2027-03-14T22:01:17Z",
 		"spec_version": "1.0.31",
 		"targets": {
-			"channels/insights/feed.json": {
-				"custom": {
-					"description": "Self-custody guides, explainers and opinion",
-					"display_name": "Insights \u0026 guides"
-				},
+			"channels/insights/msg-2026-03-17-own-your-coins.json": {
 				"hashes": {
-					"sha256": "8cf339e124c7176c2801307c2fdeaa1ef25fbb925b1a1e8fbff1dac9389f363d"
+					"sha256": "2eb9300312f853d3be32db65982e06822a4ba13d00d5c9596af1efd4d41bcc39"
 				},
-				"length": 3961
+				"length": 827
+			},
+			"channels/insights/msg-2026-05-12-wallet-screen.json": {
+				"hashes": {
+					"sha256": "3e9081e1b28b39ced3e797c21950af566c7e88fe69ac88e24f5cc62c3ff055f3"
+				},
+				"length": 804
 			}
 		},
 		"version": 1

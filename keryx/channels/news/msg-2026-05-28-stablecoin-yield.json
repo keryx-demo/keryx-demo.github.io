@@ -1,0 +1,20 @@
+{
+  "content_html": "<p>Earn yield on stablecoins directly in Trezor Suite — with the same self-custody guarantees. Your keys stay in your Trezor; only transactions you approve on-device ever move funds.</p>",
+  "date_published": "2026-05-28T10:00:00Z",
+  "id": "msg-2026-05-28-stablecoin-yield",
+  "image": "https://keryx-demo.github.io/media/img/stablecoin.jpg",
+  "image_sha256": "f9d6dd0e3d59314f22db1288b059eac6a7d52ea30a331fe950f45788d40a7226",
+  "language": "en",
+  "sig": [
+    {
+      "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
+      "sig": "MB38B6-mkSap6HlBAizSEcr-0b5SE22jpWfu7veUY5rftCGAS_x6kCcUPEqE2fvaOkB1Yh9eI6h78qi5MbIyCA"
+    }
+  ],
+  "tags": [
+    "trezor-suite",
+    "product",
+    "en"
+  ],
+  "title": "A safer way to earn yield with stablecoins in Trezor Suite"
+}

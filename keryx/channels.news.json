@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
-			"sig": "9a4d309e069413f8b5d88c7f285a5b8b247cbad615a68d4b51fa1f803b2662f859c373948a6c9958697c6c8e2dfc23062e056e5a5b67686883e7fb3aaea44e05"
+			"sig": "167920e65d82bf01a69705a256e58747a226e2e4d9255edff53e59265563f4d276f74f7eb282847a80295c60ce2d698958523e79655ab51f54af4bb0d49ee40f"
 		}
 	],
 	"signed": {
@@ -11,18 +11,38 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-10T11:57:30Z",
+		"expires": "2027-03-14T22:01:17Z",
 		"spec_version": "1.0.31",
 		"targets": {
-			"channels/news/feed.json": {
-				"custom": {
-					"description": "New releases, features and company announcements",
-					"display_name": "Product news \u0026 updates"
-				},
+			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "dc3e4f1fa704b2e493ca7bd890f22214f476c122c6f81dba6f5f74e7fe9597c9"
+					"sha256": "e5b6bb5e2ccd6574458448e4a794dd41f6414d73592e46e2fe88ef613992ca4a"
 				},
-				"length": 9129
+				"length": 833
+			},
+			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
+				"hashes": {
+					"sha256": "8b4a831ad04b2be22d896e8ddfed9fdf8618521bc6d83ed83620bad8d778759c"
+				},
+				"length": 821
+			},
+			"channels/news/msg-2026-06-30-suite-sync.json": {
+				"hashes": {
+					"sha256": "c3f98e34374622f5f55d883898d0311e8fa6eed078f550d685dce5ccaae00a0c"
+				},
+				"length": 1020
+			},
+			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
+				"hashes": {
+					"sha256": "2882895becd4501522944d134049a4d5b4b91825acf84fe120e89c8028a8f6fe"
+				},
+				"length": 831
+			},
+			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
+				"hashes": {
+					"sha256": "c6a40776d53535dfe722589b67c59353994a2856fda466979a3043eaafe4c35c"
+				},
+				"length": 824
 			}
 		},
 		"version": 1

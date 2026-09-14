@@ -2,7 +2,8 @@
 
 Generated demonstration site for the [Keryx](https://github.com/v1b3coder/keryx)
 protocol: a signed company→customer broadcast channel (TUF metadata chain,
-per-channel delegated roles, signed JSON Feeds, private capability feed).
+per-channel delegated roles with an authors role on the security channel,
+one signed item file per TUF target, private capability feed).
 
 Live at **https://keryx-demo.github.io/**
 

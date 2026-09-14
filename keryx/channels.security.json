@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
-			"sig": "3157734c2450b961ec210822cb103ca6c28767cf30f1e38f3dc9418577879ce8bb2fa1cd947fa114f66a71a5aa1750cb4220464ea4c404b3e8c6a68a6c5ac308"
+			"sig": "9183db5ea5cff7d2951d84ceec4cc94c57ad8d02c9eabc847c49f552cbf1e6456bc417b98641efb1ec159e3c2517acd71014fe9d494746814ea027a7ee93f407"
 		}
 	],
 	"signed": {
@@ -11,18 +11,38 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-10T11:57:30Z",
+		"expires": "2027-03-14T22:01:17Z",
 		"spec_version": "1.0.31",
 		"targets": {
-			"channels/security/feed.json": {
-				"custom": {
-					"description": "Phishing warnings, security advisories and key announcements",
-					"display_name": "Security alerts"
-				},
+			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "8ab486d8ce433324ee7d61fa3869e6fdc3cf964feb46791b6d3e7905c69711ac"
+					"sha256": "e40f45bf4ca3f13ff94f151d0864393a17b07d935193a9af749fa9ecbf6a7ad8"
 				},
-				"length": 13425
+				"length": 1381
+			},
+			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
+				"hashes": {
+					"sha256": "b5bccd55c8a2f246cdd3252778f79695b4f92f5c250e1cd3faed53578626b135"
+				},
+				"length": 1523
+			},
+			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
+				"hashes": {
+					"sha256": "cfd1efc6656cae8df132d4102379f038215a4d7a21346c6803047cba6a735760"
+				},
+				"length": 1557
+			},
+			"channels/security/msg-2026-08-05-coldcard.json": {
+				"hashes": {
+					"sha256": "88b94ea51586ccdaecd58ffd62bc24653c02233ade90855556f419cc56f660a5"
+				},
+				"length": 1038
+			},
+			"channels/security/msg-2026-08-06-passphrase-faq.json": {
+				"hashes": {
+					"sha256": "a944e5443e8aaac7f81edd8839d9e6e86ed202306135de3f9102f20fc2c1307d"
+				},
+				"length": 1404
 			}
 		},
 		"version": 1
