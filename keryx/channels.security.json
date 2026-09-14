@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
-			"sig": "9183db5ea5cff7d2951d84ceec4cc94c57ad8d02c9eabc847c49f552cbf1e6456bc417b98641efb1ec159e3c2517acd71014fe9d494746814ea027a7ee93f407"
+			"sig": "d2145fc0c0a5799324e7d8fa923143345b2cfa42eed29557ac02de2d1c3d3a0a70524603a296399f901e2ac4b0e5e1d78b4f18967e4a7674c3f241924e39720c"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T22:01:17Z",
+		"expires": "2027-03-14T22:01:48Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {

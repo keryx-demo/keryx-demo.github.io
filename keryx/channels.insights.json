@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
-			"sig": "bf4efb3db8f176379e323ed3eb8ac14927a79aba40c71d9e5be18f1536d54e419d72d0c6a333d8a31ebcc371f0cb2eb1d9389f76d5a625a7172fb66172a47b0b"
+			"sig": "229896521c46d37ebd877d66a9dbf93eee400e8a40f6fd74af5cbff86d3623c546a8083c117f4e51e9285979680c1d1f1cf0e0aa68beb8ce6773800d8181c10a"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T22:01:17Z",
+		"expires": "2027-03-14T22:01:48Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/insights/msg-2026-03-17-own-your-coins.json": {

@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
-			"sig": "167920e65d82bf01a69705a256e58747a226e2e4d9255edff53e59265563f4d276f74f7eb282847a80295c60ce2d698958523e79655ab51f54af4bb0d49ee40f"
+			"sig": "b701a76e597bb279236fbd7f71294f919119a51116c991d2d2de22e4765c430f4c34bc2a9c2afa407435baa67faba7fd0c6c3da67be3f122ef8ae0485a4d590f"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T22:01:17Z",
+		"expires": "2027-03-14T22:01:48Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
