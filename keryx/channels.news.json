@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f",
-			"sig": "ef03a2394d2f6bb4b4dbbdc8b8f1cd94e084ced9af103c01e68d606e8dd2d05f867cd3ef445a0cccdae03dced007f5e2679173c89ba8c7b8ce1e037d2df6dd02"
+			"keyid": "7a569308b7da7ed27012bd70b4d3d5c7360015c4e80bf2b7577cf1f3e5d90d46",
+			"sig": "37bce33ca7038a8b6d38422757b883b3655c5995a2ab23d5f9fdb8c3c645f08e9c0cf257cee3d92396749b9c1bb77baade0171f2ffb1e276d1fbb76f169a1503"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T00:18:50Z",
+		"expires": "2027-03-14T08:31:31Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "ea1dd3bb68f65d15d546efc0d9f1e12e09b0b659f136f6e6f5fd979bdd7b36fb"
+					"sha256": "e275797b9b66999d800fd6d9993374f7d01618c386ff34e3ec3f996d956be0ce"
 				},
 				"length": 1031
 			},
 			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
 				"hashes": {
-					"sha256": "cd567d77694f6e98294dfd2ac0a2d2263bf0f98513bfbd7c56ed6d063cafec12"
+					"sha256": "123b304af72d92c55e3b48fb366c44c7a0933af8fe5c17b0fa75d7e5827a009b"
 				},
 				"length": 1019
 			},
 			"channels/news/msg-2026-06-30-suite-sync.json": {
 				"hashes": {
-					"sha256": "098d5aad49591dc2452d1c030a4be92ea7d81b1dd08bc4da524dbc14ad1bdc06"
+					"sha256": "24782c4248877f61fd88447c1567d4d73e95a9e088787c26ae7085e26381d047"
 				},
 				"length": 1218
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
 				"hashes": {
-					"sha256": "57c18af839066a963e9ea7b4a4d1a749d931b5aa842e6632396d02d309893da1"
+					"sha256": "c194ad67ab3929191eed40e646cd4e5db8337540e6401cb1517dfee4619836e0"
 				},
 				"length": 1029
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
 				"hashes": {
-					"sha256": "516825072134abab5a29113950297539e1cfcaa368d81d38f78dbce0c9022b6c"
+					"sha256": "382c363585f88792ff4024c99b40a5b36dd95b30b5121d89d69c72d0ae845603"
 				},
 				"length": 1022
 			}

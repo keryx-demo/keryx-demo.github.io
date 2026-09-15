@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "25fa3d2565c527346c0f1ef6c12cb5f1ed4a4e4d58f12f855d31057fc1a3a3be",
-			"sig": "87b8d5529f583cb330da51c59f3851ed490169b6e6805d2f3cc1d05d77efccd940f9cb9575a5213604184951a17f57993586d59ca7b2beb8f1ebd2b56648d50e"
+			"keyid": "e220a00f0a0a277decd5ec2f200e9d503d30d1364c2f25f2e928356a54b85d64",
+			"sig": "98eee5520b0067ac9f14548bdcdd164ec9ad435cd839095b7fcc4ca063247ce5dd7c656d654803f0b1289a9680490dc6e187b2db71dea63fbac79d51b785ab0b"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T00:18:50Z",
+		"expires": "2027-03-14T08:31:31Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "3c960ee18dedb378ad500c10b377caaa720a431c2aa945ac89b7df7be7e0f656"
+					"sha256": "f53d30ca060281e4667b6ac50cdc7aa53bc493e5eef88425ff734de645f65fa6"
 				},
 				"length": 1381
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
 				"hashes": {
-					"sha256": "ae9766fe19f62e865ea7a2749f69e9c52967923188c471e83b5d761edf5d4547"
+					"sha256": "6e145b7913005b370b04a81e61bffece6ff10f225db3f846b98b5bf189d4a0dc"
 				},
 				"length": 1523
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
 				"hashes": {
-					"sha256": "9a966ad894ee4bc1664669a04e09bcbbf307894fe8b8be7bdfddd9f4d2a9c899"
+					"sha256": "d4c4dbfbd6cfd82871bd5a74e5f1eb8b25b8f19798a961c028a4abc175d983eb"
 				},
 				"length": 1557
 			},
 			"channels/security/msg-2026-08-05-coldcard.json": {
 				"hashes": {
-					"sha256": "c849cdc0c2c5b0dd5602206eecebcff36b990d87244723d227b706920ad6672b"
+					"sha256": "8c393ca66ef2b4583e34eee6a8f96f3d06607664605322c186ca1d6c393352b2"
 				},
 				"length": 1038
 			},
 			"channels/security/msg-2026-08-06-passphrase-faq.json": {
 				"hashes": {
-					"sha256": "f024bec65eae209151d988501309db473287accd05006fafac73e6446544b086"
+					"sha256": "195708c5cc3515d3e0305b88232c357e9977a47e6e74415a86069fa7d372c691"
 				},
 				"length": 1404
 			}
