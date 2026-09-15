@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "9781c18cd04593b7c7c69f30b340e52685c8c7c775b1a52bb661ac80e8c016b4",
-			"sig": "e09e4825a4429bc5ece67581162ad270a23408a84fb8763c98e43478b934866b794f2a228c74fdd7ca80b64ad06e8d2d42084099b780476c5fb1f716fb3b4c06"
+			"keyid": "a1268ea44591f479a9412c2f094d6c43bcf71c696115ba2431ee2dd3380639c4",
+			"sig": "89b055bea76d29842e36e2810fb62137e17c17ccb77b00c41f025e09c52686b71e11500eb5cd2e826b527cf7863569a9a5084a7bae708c07254c6c3a78f48803"
 		}
 	],
 	"signed": {
@@ -12,47 +12,47 @@
 			"mode": "full",
 			"repo_base": "https://keryx-demo.github.io/keryx/"
 		},
-		"expires": "2028-09-14T08:52:49Z",
+		"expires": "2028-09-14T09:00:19Z",
 		"keys": {
-			"6b4023c047c66f81afaf348f9a01ec07f5c0ff861d4652a987afe327d9d50700": {
+			"a1268ea44591f479a9412c2f094d6c43bcf71c696115ba2431ee2dd3380639c4": {
 				"keytype": "ed25519",
 				"keyval": {
-					"public": "6e69703f4a6e7b2e7c781c8652eadc7bf64043570bc71f9056fa4420740cdd81"
-				},
-				"name": "ops",
-				"scheme": "ed25519"
-			},
-			"9781c18cd04593b7c7c69f30b340e52685c8c7c775b1a52bb661ac80e8c016b4": {
-				"keytype": "ed25519",
-				"keyval": {
-					"public": "65ae1d567970bbfda8e413e50135fec49738553c35f6579e1b1633dd10877b46"
+					"public": "09038c8695d7a1b9020b2ffb22709793956bbf7e3bab487c16fe8f14962104e5"
 				},
 				"name": "master",
+				"scheme": "ed25519"
+			},
+			"e660f9c95722d9d9b0df3dd144d77600e5a57ec5e35fcc5ddef111cfbc52dfa3": {
+				"keytype": "ed25519",
+				"keyval": {
+					"public": "83f7bfbb44a7adb8b7d00c19160de970abed9785181ad1e1e5202eeef10574fb"
+				},
+				"name": "ops",
 				"scheme": "ed25519"
 			}
 		},
 		"roles": {
 			"root": {
 				"keyids": [
-					"9781c18cd04593b7c7c69f30b340e52685c8c7c775b1a52bb661ac80e8c016b4"
+					"a1268ea44591f479a9412c2f094d6c43bcf71c696115ba2431ee2dd3380639c4"
 				],
 				"threshold": 1
 			},
 			"snapshot": {
 				"keyids": [
-					"6b4023c047c66f81afaf348f9a01ec07f5c0ff861d4652a987afe327d9d50700"
+					"e660f9c95722d9d9b0df3dd144d77600e5a57ec5e35fcc5ddef111cfbc52dfa3"
 				],
 				"threshold": 1
 			},
 			"targets": {
 				"keyids": [
-					"9781c18cd04593b7c7c69f30b340e52685c8c7c775b1a52bb661ac80e8c016b4"
+					"a1268ea44591f479a9412c2f094d6c43bcf71c696115ba2431ee2dd3380639c4"
 				],
 				"threshold": 1
 			},
 			"timestamp": {
 				"keyids": [
-					"6b4023c047c66f81afaf348f9a01ec07f5c0ff861d4652a987afe327d9d50700"
+					"e660f9c95722d9d9b0df3dd144d77600e5a57ec5e35fcc5ddef111cfbc52dfa3"
 				],
 				"threshold": 1
 			}
