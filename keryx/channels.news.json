@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "880e4de651fed8d49e4a1c284e9880d98790136c2f4a7b43fbad516cc7f4ca4e",
-			"sig": "a49950e544d900f7505b28bf91ba64a1e189d22509ab67942374d13c9e174dbee9e3bbadea0cee9f28350c6ef6da4b1b9a2de4f2a14e0ae5afa270e85f6eb70c"
+			"keyid": "be2153f24ae5d16559ca3101085e6b4c9a589191b9cace41d0ca0c9e426f04b4",
+			"sig": "1aeb1426df86fdc37492baa518f6587978d74fa37f690f1ce7300224db5c4d9582f1bc86c385f75f60373da3cf898de18d3c3e7397a38278a9f9e639b9468b0f"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T10:22:08Z",
+		"expires": "2027-03-14T14:39:36Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "4735a2c319ca08ef7e58655c985c289c0dc9130ab9e001a67a127cfb6069944b"
+					"sha256": "83156474d86f713485917aa3f48120ca701d8bf66b50f711dd49ae406f67d19d"
 				},
 				"length": 1031
 			},
 			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
 				"hashes": {
-					"sha256": "d7c051ae2dc6b860443258c3665a70a46af26907a30cafa685c1eba6f4fcc415"
+					"sha256": "99bad573f294fa987b361006e21905564857b4e45863d4b21c8754332fea9826"
 				},
 				"length": 1019
 			},
 			"channels/news/msg-2026-06-30-suite-sync.json": {
 				"hashes": {
-					"sha256": "3b155e83824ceda1bed0cf7e7f5e49b1b2bb8bca58c67f05d74c38ebac50b309"
+					"sha256": "f1a1604a03c9bbab1895da2be51544b7c5f69876bae7e9e28bf1b6e66f974b88"
 				},
 				"length": 1218
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
 				"hashes": {
-					"sha256": "fab329f4e3e6caf53a7026da34a627da72c177f50e95a5c7d34d75e63f086603"
+					"sha256": "70c7bdcbf12b2aee0c5cd0a0bd2a7d58c412a2fdc5d8a9a3f1200e87154d2869"
 				},
 				"length": 1029
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
 				"hashes": {
-					"sha256": "d21edcab7a718590681679128a7ae81811a966027582d1f75df2af23011e46d2"
+					"sha256": "7acfa5c91f35a94d5e72b0ea48924b2e7757e5ebfc9b097af5ea8dfa5fc54af1"
 				},
 				"length": 1022
 			}

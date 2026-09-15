@@ -1,45 +1,45 @@
 {
 	"signatures": [
 		{
-			"keyid": "aa4527c6256a0bf0b7215abfc8a6336852c8e5dc2787e9828759e1c6e2ae8ab0",
-			"sig": "5bff37241f3391d46e293c782b7d7ec70eb668bfa9faa41017226bc99965c6054006e64df176688e8bd7d398c62246d03022f8aaf544e782100b980529111607"
+			"keyid": "5beecb4477a41cd63b92f71d18442521fe67c0b077bdd889bc1109bc94c26578",
+			"sig": "049124a982f42db8c75533bf54040d476c0f120c3cd008ec8e81f47a0a2a40c2e2150b8a2cff86357c2c13e88035e323b891f56157dd3339df41219cc18dcb05"
 		}
 	],
 	"signed": {
 		"_type": "snapshot",
-		"expires": "2026-10-15T10:22:08Z",
+		"expires": "2026-10-15T14:39:36Z",
 		"meta": {
 			"channels.insights.json": {
 				"hashes": {
-					"sha256": "08bb03059dd13f772419d665a541c6a9850a7e1c0c922aa2dacde73a6ba42112"
+					"sha256": "68b31a9fb00820017af3f3823de2e1afbd67ed5e67e61dda790d08bd2b8b5f51"
 				},
 				"length": 825,
 				"version": 3
 			},
 			"channels.news.json": {
 				"hashes": {
-					"sha256": "d8c7a3241ed7f93968d9d07028d28e90dba33ddc138b02c7d5d58d4eaefe7d05"
+					"sha256": "9d29799785ed668786a5c9dd24eb94c27c4da3a5caebbb90f0839ce2d92a1569"
 				},
 				"length": 1397,
 				"version": 6
 			},
 			"channels.security.authors.json": {
 				"hashes": {
-					"sha256": "1ccbd1540113213f8b20303a3d1a6f9ff1696b44aa7634114e8e6e1bc1ebb175"
+					"sha256": "cb5786dd173d06b00d576530506fe46bd4b9d336a825300ae6211bc24c757103"
 				},
 				"length": 672,
 				"version": 1
 			},
 			"channels.security.json": {
 				"hashes": {
-					"sha256": "16630ec0873f7750ea8fc9f5d5cacd36db26b442cc2e44f28dfcb2f6820f2f1a"
+					"sha256": "351fedf069d04496efe658048258b6b6637f112596069280023d0d2b36087c8c"
 				},
 				"length": 1413,
 				"version": 6
 			},
 			"targets.json": {
 				"hashes": {
-					"sha256": "0e754d2b8b9e20665cadf58500dc6bbea8d75f04ff425c4debfd998cbc34fbfe"
+					"sha256": "1f0e28d4d36779fe90038625fe0613eadd640b5388f7bb772f8ff12c33c6f852"
 				},
 				"length": 4184,
 				"version": 5
