@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "7a569308b7da7ed27012bd70b4d3d5c7360015c4e80bf2b7577cf1f3e5d90d46",
-			"sig": "37bce33ca7038a8b6d38422757b883b3655c5995a2ab23d5f9fdb8c3c645f08e9c0cf257cee3d92396749b9c1bb77baade0171f2ffb1e276d1fbb76f169a1503"
+			"keyid": "4e784fc5a5fe5c71c63e8d7bb5957dafade0df0b3124626acc587dea6cb94dc6",
+			"sig": "1ea595e5b72ef76a0bcf96e71955481f7882bc6f5cc7bf9a6738542dbbc750a3f35fd008d512762536f6cab8ba74743297ddb47d04a5cfe3759fa7c2007d310f"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T08:31:31Z",
+		"expires": "2027-03-14T08:52:49Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "e275797b9b66999d800fd6d9993374f7d01618c386ff34e3ec3f996d956be0ce"
+					"sha256": "689aced45d12697404ba2b01fde7768439a8dfd334a4f3c8d78c1496aa64bf82"
 				},
 				"length": 1031
 			},
 			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
 				"hashes": {
-					"sha256": "123b304af72d92c55e3b48fb366c44c7a0933af8fe5c17b0fa75d7e5827a009b"
+					"sha256": "b961a646b8de9c3bb8789de1f6cf5948d7369f9310381369e3bfaca07e23394b"
 				},
 				"length": 1019
 			},
 			"channels/news/msg-2026-06-30-suite-sync.json": {
 				"hashes": {
-					"sha256": "24782c4248877f61fd88447c1567d4d73e95a9e088787c26ae7085e26381d047"
+					"sha256": "107194d68ebe8a69a16ac1ed41d848a71c22ea9cd63991bed1d910854f2e7ee8"
 				},
 				"length": 1218
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
 				"hashes": {
-					"sha256": "c194ad67ab3929191eed40e646cd4e5db8337540e6401cb1517dfee4619836e0"
+					"sha256": "2d9af78e37c9ef10767ad87583a75698c752255d97a0ea10a4988240cde92ebc"
 				},
 				"length": 1029
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
 				"hashes": {
-					"sha256": "382c363585f88792ff4024c99b40a5b36dd95b30b5121d89d69c72d0ae845603"
+					"sha256": "98c06913aa9caa963b71d02b816ba1344fc9f162408f53e183c7a808c83203aa"
 				},
 				"length": 1022
 			}
