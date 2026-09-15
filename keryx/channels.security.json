@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "ffa0de809ecf1de2cabcfdf1c048a13e46820189180cb563b9ca6f076f4dd5c7",
-			"sig": "9afd050e1fe779ff6bebd339b4c0f950916c309a758495dbabe2b525c930da085edba2fd9e1064610755a2a4aa7b4c43d2acd62461772c2c6f6cba683a58d00e"
+			"keyid": "88e7c0a081fe4972cbd6badb4d843f31e459cd62b6585375c8ee80f5852ca5c9",
+			"sig": "5e963d4fa4c626fd2e227522770757a6376f780d365d2d674d123c32c5a82d0310bae973a5676fab6199d94c4f27627063eeb6b1f533df502ab2c7e121eee704"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T09:09:14Z",
+		"expires": "2027-03-14T10:22:08Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "941b02e2895a2ada3750e63cc769b9a97c727a89d13cecbf54d035149bf2f63c"
+					"sha256": "2bb690c0e66772c6ec9ba877e380832b9e06abbe3d1df6cf4d854b672916ef96"
 				},
 				"length": 1381
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
 				"hashes": {
-					"sha256": "1a3c64f8d3ac456dc6154fc027e541aa6e39588af4d304463e9771cf49680796"
+					"sha256": "1d61613f86c647d38b158b199fd0d06f45584aa3e90704c40792b3e417212297"
 				},
 				"length": 1523
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
 				"hashes": {
-					"sha256": "c6f3cd7662497cbc39d5441cda2ab17cc9bb088943d8db3202c4981126667b17"
+					"sha256": "87186abe1f5f113b0be3437b62f63b9512aeb0b5c7a7f41b42d28fc3eafa6003"
 				},
 				"length": 1557
 			},
 			"channels/security/msg-2026-08-05-coldcard.json": {
 				"hashes": {
-					"sha256": "c3af8f0c298b200b65649cc715c79f455812b7cc518a02a54756bed57ddb97c5"
+					"sha256": "f1c238a887aa4262dd5d584c033bf210a3669ade27d966d3b37950c6f3a51d48"
 				},
 				"length": 1038
 			},
 			"channels/security/msg-2026-08-06-passphrase-faq.json": {
 				"hashes": {
-					"sha256": "006bc8ab4ccd7bb560d0d17289345df735afb50171e9f008026edc47bd99bcc0"
+					"sha256": "fe586558262dfc2c36abb0e6fb6f4e87fd24ad425fc2454d3b5dc7794f90f9a5"
 				},
 				"length": 1404
 			}
