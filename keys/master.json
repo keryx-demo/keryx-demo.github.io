@@ -1,4 +1,5 @@
 {
   "name": "master",
-  "seed_hex": "8f333e783cdef957df625a4ad81dfaa47ce4920cd6435b8b3632c7c7faee5886"
+  "role": "master",
+  "seed_hex": "b02bd819e2ed3e222989336a122277b74ee82d7f88cb536b517493f6289b15b9"
 }

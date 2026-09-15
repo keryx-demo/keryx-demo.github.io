@@ -7,8 +7,12 @@
   "language": "cs",
   "sig": [
     {
-      "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
-      "sig": "7tG4dJXq_i2cjyNMhttqdkTrS7w32CO76jPKfJWQbCo4nYP2Crv1IKfw5C5ZIYDOlLdnKovRcJr9MhXS8-7jAg"
+      "keyid": "d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f",
+      "sig": "P8_RNOf4BpZGTtQwMPvILp3BHDQlrUK8j6-lFEU-dSUYg9I0ZQqajXrHA8CLYWTyPPcDeDQFOhCCYMyapOi9Bw"
+    },
+    {
+      "keyid": "d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f",
+      "sig": "P8_RNOf4BpZGTtQwMPvILp3BHDQlrUK8j6-lFEU-dSUYg9I0ZQqajXrHA8CLYWTyPPcDeDQFOhCCYMyapOi9Bw"
     }
   ],
   "tags": [

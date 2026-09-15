@@ -1,4 +1,5 @@
 {
   "name": "tracking",
-  "seed_hex": "a87822c28f2d39f2f0aaf4d5d3eae47b2bf8080343c2f2465df43b05d5994e1b"
+  "role": "engine",
+  "seed_hex": "78505e7d62edd181a969afa49f0a8cfbcd0cfa2f9e85e87aaeda9cbdd2d180cd"
 }

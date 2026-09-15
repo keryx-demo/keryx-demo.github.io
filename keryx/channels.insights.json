@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af",
-			"sig": "dca4f6a11e2ff44f23f3151f31088b7be71e5dbe1b47fe4dfd8fe642c370134ed9cfd0aab294747582cc409a95c21e12159054bdec28ed9ee48490d00872b50b"
+			"keyid": "ff2c1c430e4453fca9fc9bf2d1d05897d63bf59fd5c128678a5be30c320bbfe7",
+			"sig": "6ce8c7753f82a08317bcbfff7b2cbb9b41c8eb1ce95a088a4e9cbe2869973c12789a283cf8fab7ed7f7c0d869d96e36897c323e1477b39ac46923bc2e4870605"
 		}
 	],
 	"signed": {
@@ -11,22 +11,22 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-15T00:11:08Z",
+		"expires": "2027-03-14T00:18:50Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/insights/msg-2026-03-17-own-your-coins.json": {
 				"hashes": {
-					"sha256": "2eb9300312f853d3be32db65982e06822a4ba13d00d5c9596af1efd4d41bcc39"
+					"sha256": "03a73a651add5998e817ae3a7bbcbfe8c2f38f72211b4628169422257d1d32c3"
 				},
-				"length": 827
+				"length": 1025
 			},
 			"channels/insights/msg-2026-05-12-wallet-screen.json": {
 				"hashes": {
-					"sha256": "3e9081e1b28b39ced3e797c21950af566c7e88fe69ac88e24f5cc62c3ff055f3"
+					"sha256": "3f90f6d08cff99d287c6b8605b7f8b7c396921d85cd28225af121ceb1a7b9a16"
 				},
-				"length": 804
+				"length": 1002
 			}
 		},
-		"version": 1
+		"version": 3
 	}
 }

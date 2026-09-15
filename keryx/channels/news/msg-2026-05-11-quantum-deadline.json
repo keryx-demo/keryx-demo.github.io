@@ -7,8 +7,12 @@
   "language": "en",
   "sig": [
     {
-      "keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
-      "sig": "SxC0dy-NsvRNZ72xGeAI84MXpNWwXOglVyBt4BNbkqlRqpOVKQoLZVokij_tYJsGWk6mcBwJxXTwy5ktmY5CBw"
+      "keyid": "d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f",
+      "sig": "0DR47ro1Z1uPqop6nh6Tiqxa8HY1hECvQYatPZLlTDAIChyuSToJT_nZpySaNL5sGZq6TuAeQoHKnScu-1nsCA"
+    },
+    {
+      "keyid": "d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f",
+      "sig": "0DR47ro1Z1uPqop6nh6Tiqxa8HY1hECvQYatPZLlTDAIChyuSToJT_nZpySaNL5sGZq6TuAeQoHKnScu-1nsCA"
     }
   ],
   "tags": [

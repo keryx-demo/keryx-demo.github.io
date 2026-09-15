@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "7a66d78b32cc759fdf4d3c940a3d94f4476e17c7debc19eb465abd212a903491",
-			"sig": "75eeb30008c7f51a03fda178e85a9e23ca761c68110ecd6f59e6a888b74cde25204d536dc03b2f4761f119dc2bbf27da7831503a817354990b6a5e0fbd5c6b08"
+			"keyid": "08847bed787451a26d1be6dadf6c1bf21062c75b701edb5551c3d66224101cc5",
+			"sig": "9eaeef2a60fe258a34c0bc1d9dc04d50e49c18808c2005a5a2fb3463b6ea8e5a64b53ce05773414e254ede1869dae474b54dd8b2864eb53ae69259b2e1c86f05"
 		}
 	],
 	"signed": {
@@ -23,20 +23,19 @@
 				}
 			},
 			"company_name": "Trezor Company s.r.o.",
-			"logo": "https://keryx-demo.github.io/media/logo.png",
-			"logo_sha256": "f6d041ffc76796ec507eedcf8e4153049249a0684f1160ecdfd3667c7be88c7d",
+			"logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAAAAAAYplnuAAAE3UlEQVR4Ae3dA5ArTRDA8Z6Nnm3btm3btm3btm3btm2b54ux8xkvm9yGu5Oq/pf9O0Yz3UADMEQjGtGIRrQcIRrRiEa01RARGvTzZ1BouMEaEGjbiz2zezWtWCxvzpx5i5Zv0nPmrqdWxtFfx6fTKDn4X5xSnWLkR2bR5jtzyivAYaTU9BsmFtGPGyTjwGkkaZ3brKGt93sQEIm0vWVhCf1taGoC4iXv+4kZtPVJbnCxTHctbKANU+OCy8Uaq2UBrauhBDdSlgmVH/28IrhZiYdyo9/m5MDNSOZn8qKfZgEPSvdATnRkRQIeRIr/kA9tLAsell8rF9o8lgMP4waZZEJfiwseF/OkPOivWcCLUr2VA23pBV7VzigD+npScBYXN1mmLFmzZsmcLB4HzkpwUQZ0e3BSzLqzTj+18pTy1udn5zaMC05qJD36AQeOa/+dp/+LD+oBjiPnpEZb6oOjNI2u8dQu/k6LaOCoygaJ0bcTg4OiLYukDtJuiAUOSnBFYvRcBQhLeZA66WQ6EEYmS4vma4KwGIcs1EnWU/FAWBmbpGhtdBCk3kGj6Gh0EKQIkhS9DQSR9gYaRcZeBAQtkhTdHASpRZ4kv9aAoIq8hGhjfBDUm4o0HgSpwiVEPwNBsYOoSBFJQNANCdFHQFANKlpjELRLQvRGEDSJijaXgH1LJETPA/s026loh4WPixMlRE8UPiSfp6JdFT70D5EQPRrsS3yVinZd+JfYj5cOPVKIvkZFuyFE9w1EdG9bAKJ7IRrRiEY0on2CDnv5S93BvgQ7X4q2O6G06OWaX1KAfUSlEU1FwL4UpX9ph0/RS0GS5iIa0YhGNKIRjWhEIxrRiGYZnSKDF6WRCX3O5kWvZEKfp170BtGIRjSiEY1oRCMa0YhGNKIRjWhEIxrRiEY0ohGNaEQjGtGIRjSiEY1oRCM6oNEVDgVRDws9VksmNMQssTCCepB2RenYcp5hSrE6iKduxYdsySD3wSsu59invBvkl5PzKhg4LUZidflKXexn39gcK0fcEvW+oKOi6a8MSsbUubyE1U5baZTZLtVOzNxhQlLlTBDv/K/vfG3C5AnIaOUWhlGHaZdVjMnusc2E63Q2ahev35aM8bOmOSY+or/0bFoe9g/IKuJ3+ET/7VvPBAqQCb2aAzeK1+eqif6e5caQxOBG3BKfor9NSwJuRBJXPWqxnq6ZhIAbJZz42Su0sMiJGTTgRoqKNZXgRup0Y8P9cMf248qyHPgprsTSd/66GHwqBwE/RLIe8edtZt3extHBx2ka7Ir08xVs/avWavBhquYvdRLcG+fvtk0LPip1y1u8RJfdzY9m+4Sdctp9s5Sj50Inp1aBV6lSjg2WfAbkp2UV1OBxyjKL3ssyjNV0KgN4WOojJl6uAcP8zoYJwe3i1d3Cyzp/Wnu7EwG3Ii1vRMo/U/1dmzScy+JUzZ+zMb3e/HBqWnCplBPumdhZbmCakkoJIilSjNMztkbi0+JyKogiZan573n2FnbozhUh4CSS77iW0dUohl11EoKD4tfcomN4n4v+eo/oYJe60xUt6+t+njdLroB/45I1eBwIO4r4u5Mywd+lHXeLD5RtUKY5sTkALtZEY0CtsPqxsHzpOZ8Dbe8WHx5mw2VhiEY0ohGNaEQjGtGIdr3fALrE6YZ7e7z8AAAAAElFTkSuQmCC",
 			"private_feed_patterns": [
 				{
 					"channel": "tracking",
 					"display_name": "Package tracking",
 					"keyids": [
-						"cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d"
+						"0232987d17c7cca0fe2099fca2beb965ccfcb6c2ce548b88d7ce488a263bc7d8"
 					],
 					"keys": {
-						"cf43be895b6e16e45b0a03aa8fd58b137c41bafb05b15370ed92e3a92a162b5d": {
+						"0232987d17c7cca0fe2099fca2beb965ccfcb6c2ce548b88d7ce488a263bc7d8": {
 							"keytype": "ed25519",
 							"keyval": {
-								"public": "989c8c619953f0c77492e8df9780d3a20001c476445cced5cf32c90e1ea0761d"
+								"public": "07efa1205406a16b5505d8147b2dcd9290afe034af5e3254238a11160803648c"
 							},
 							"name": "tracking",
 							"scheme": "ed25519"
@@ -50,51 +49,51 @@
 		},
 		"delegations": {
 			"keys": {
-				"179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca": {
+				"25fa3d2565c527346c0f1ef6c12cb5f1ed4a4e4d58f12f855d31057fc1a3a3be": {
 					"keytype": "ed25519",
 					"keyval": {
-						"public": "8b2e54ee98d8102c98e862497fabb20b98f65032f28c2573bab60f253313e3fe"
+						"public": "8aaea3e4fe9890f1e5d9606a34de06fca5e9dae838d5d65e58024c128050ca93"
 					},
-					"name": "news",
+					"name": "security",
 					"scheme": "ed25519"
 				},
-				"2e014608e9718f4b5bd7dacecf54efbfe56b444d3cd940cf74d5115d490852fb": {
+				"297b69ae325edc6dcb6907648d6b583da8ebdec54577bc2b88d14a92ba948248": {
 					"keytype": "ed25519",
 					"keyval": {
-						"public": "cdee85525fd8d70b7ee3f282610308e5c48d150ae37037c375287df3dfb3f0e8"
-					},
-					"name": "author-security-a",
-					"scheme": "ed25519"
-				},
-				"bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af": {
-					"keytype": "ed25519",
-					"keyval": {
-						"public": "8042918c1dfd07472c855d9e9fb32e096d73c4fdffbf27a54e5015efbdc3ffce"
-					},
-					"name": "insights",
-					"scheme": "ed25519"
-				},
-				"ceb583275c95bc47652210aa63527457b0c95cf65aa865771312b6ead998b27c": {
-					"keytype": "ed25519",
-					"keyval": {
-						"public": "0b7ea009290e6f6d1ba7aefe906fe7a9fa25f93b4ce685ba438922fc1dc282bc"
+						"public": "a573383b2b4aa6d9ce4afe3e8942c8959da4cd0e4c5ea52ad6cef7e7acd8787b"
 					},
 					"name": "author-security-b",
 					"scheme": "ed25519"
 				},
-				"f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045": {
+				"8fc9fb05b64e166b4ee5b3da50bb4fda8c3cbdd963016f5baa66b7e9422c6900": {
 					"keytype": "ed25519",
 					"keyval": {
-						"public": "626446969c050e797e7ab373233e591891b83a98a33dd68209f8288dbff04653"
+						"public": "60f90e11fd192fe4a35062923a6e48cdc6ab780233a40cee3b556c683668acb5"
 					},
-					"name": "security",
+					"name": "author-security-a",
+					"scheme": "ed25519"
+				},
+				"d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f": {
+					"keytype": "ed25519",
+					"keyval": {
+						"public": "d6a45b36d7a31ced3fa329a93e077cedcb29291a484a54cb1d2d26927e06e6fb"
+					},
+					"name": "news",
+					"scheme": "ed25519"
+				},
+				"ff2c1c430e4453fca9fc9bf2d1d05897d63bf59fd5c128678a5be30c320bbfe7": {
+					"keytype": "ed25519",
+					"keyval": {
+						"public": "4e9d7fb883bade12452ea6618506a2c6019fadfcd6d4b01530d3a78a3bbc5f2f"
+					},
+					"name": "insights",
 					"scheme": "ed25519"
 				}
 			},
 			"roles": [
 				{
 					"keyids": [
-						"f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045"
+						"25fa3d2565c527346c0f1ef6c12cb5f1ed4a4e4d58f12f855d31057fc1a3a3be"
 					],
 					"name": "channels.security",
 					"paths": [
@@ -105,7 +104,19 @@
 				},
 				{
 					"keyids": [
-						"179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca"
+						"8fc9fb05b64e166b4ee5b3da50bb4fda8c3cbdd963016f5baa66b7e9422c6900",
+						"297b69ae325edc6dcb6907648d6b583da8ebdec54577bc2b88d14a92ba948248"
+					],
+					"name": "channels.security.authors",
+					"paths": [
+						"channels/security/*"
+					],
+					"terminating": false,
+					"threshold": 2
+				},
+				{
+					"keyids": [
+						"d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f"
 					],
 					"name": "channels.news",
 					"paths": [
@@ -116,7 +127,7 @@
 				},
 				{
 					"keyids": [
-						"bf1f6d48098235781820d814fb30f8b9dd2b5d496c35970395a76337f6eb69af"
+						"ff2c1c430e4453fca9fc9bf2d1d05897d63bf59fd5c128678a5be30c320bbfe7"
 					],
 					"name": "channels.insights",
 					"paths": [
@@ -124,24 +135,12 @@
 					],
 					"terminating": true,
 					"threshold": 1
-				},
-				{
-					"keyids": [
-						"2e014608e9718f4b5bd7dacecf54efbfe56b444d3cd940cf74d5115d490852fb",
-						"ceb583275c95bc47652210aa63527457b0c95cf65aa865771312b6ead998b27c"
-					],
-					"name": "channels.security.authors",
-					"paths": [
-						"channels/security/*"
-					],
-					"terminating": false,
-					"threshold": 2
 				}
 			]
 		},
-		"expires": "2027-09-15T00:11:08Z",
+		"expires": "2027-09-15T00:18:50Z",
 		"spec_version": "1.0.31",
 		"targets": {},
-		"version": 1
+		"version": 5
 	}
 }

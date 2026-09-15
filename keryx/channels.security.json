@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "f377b3fd9cf94c904b52c6cb8a2e4424670b9c449b5aac209ef78a17ad62e045",
-			"sig": "80a065fc16d6524c545f81f5f2648b8539e15afe8d2797dd048ae99a21e07371ee768a79e8f27381af4c7908b8f83464dc4ee312b612fa906a980e5d195f1f01"
+			"keyid": "25fa3d2565c527346c0f1ef6c12cb5f1ed4a4e4d58f12f855d31057fc1a3a3be",
+			"sig": "87b8d5529f583cb330da51c59f3851ed490169b6e6805d2f3cc1d05d77efccd940f9cb9575a5213604184951a17f57993586d59ca7b2beb8f1ebd2b56648d50e"
 		}
 	],
 	"signed": {
@@ -11,40 +11,40 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-15T00:11:08Z",
+		"expires": "2027-03-14T00:18:50Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "e40f45bf4ca3f13ff94f151d0864393a17b07d935193a9af749fa9ecbf6a7ad8"
+					"sha256": "3c960ee18dedb378ad500c10b377caaa720a431c2aa945ac89b7df7be7e0f656"
 				},
 				"length": 1381
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
 				"hashes": {
-					"sha256": "b5bccd55c8a2f246cdd3252778f79695b4f92f5c250e1cd3faed53578626b135"
+					"sha256": "ae9766fe19f62e865ea7a2749f69e9c52967923188c471e83b5d761edf5d4547"
 				},
 				"length": 1523
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
 				"hashes": {
-					"sha256": "cfd1efc6656cae8df132d4102379f038215a4d7a21346c6803047cba6a735760"
+					"sha256": "9a966ad894ee4bc1664669a04e09bcbbf307894fe8b8be7bdfddd9f4d2a9c899"
 				},
 				"length": 1557
 			},
 			"channels/security/msg-2026-08-05-coldcard.json": {
 				"hashes": {
-					"sha256": "88b94ea51586ccdaecd58ffd62bc24653c02233ade90855556f419cc56f660a5"
+					"sha256": "c849cdc0c2c5b0dd5602206eecebcff36b990d87244723d227b706920ad6672b"
 				},
 				"length": 1038
 			},
 			"channels/security/msg-2026-08-06-passphrase-faq.json": {
 				"hashes": {
-					"sha256": "a944e5443e8aaac7f81edd8839d9e6e86ed202306135de3f9102f20fc2c1307d"
+					"sha256": "f024bec65eae209151d988501309db473287accd05006fafac73e6446544b086"
 				},
 				"length": 1404
 			}
 		},
-		"version": 1
+		"version": 6
 	}
 }

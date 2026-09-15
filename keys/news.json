@@ -1,4 +1,5 @@
 {
   "name": "news",
-  "seed_hex": "5490409fc7ea624072554c97064ae725344da14f04ab6dbf72b9234e5fa1deb8"
+  "role": "channel",
+  "seed_hex": "e0b23aa2f32edbf6beb1682204d2c70a4949e2bdf0edd075b065f7584f4433b0"
 }

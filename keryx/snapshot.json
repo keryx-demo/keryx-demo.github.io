@@ -1,51 +1,51 @@
 {
 	"signatures": [
 		{
-			"keyid": "ddcada72e2520c4e6954520ec9d48038d7d8bdf9fd7504c2d35e569bff274925",
-			"sig": "23881753fc89e4f324fa704c1fc07a27812952cb53a44e4c981c153caf2bd5700a5e18649d182afda087f74de480e4217b72cffaf37eeb6e2bb18b9359206102"
+			"keyid": "564a879f6d7b12d34a58efa622f0113d5ef64df0cef976ff3b257ce3c8816096",
+			"sig": "8f0cebe6aa18a5c4715cd56de9e0798ded1b7f4608a00eca79e991c3ec1da8b8b92f207ac82b91fd6350227f3808d069f615f2ebca01f4b3a1e4835c3b024c01"
 		}
 	],
 	"signed": {
 		"_type": "snapshot",
-		"expires": "2026-10-15T00:11:08Z",
+		"expires": "2026-10-15T00:18:50Z",
 		"meta": {
 			"channels.insights.json": {
 				"hashes": {
-					"sha256": "3ba6a97b88dc2f824147e0f8b11389d87a4bbece1eec793597904633f0136312"
+					"sha256": "308dbe2de35093ba2fe6ef6974327d1190822c6bf4f6fe19dee6aa3ecb99848b"
 				},
-				"length": 823,
-				"version": 1
+				"length": 825,
+				"version": 3
 			},
 			"channels.news.json": {
 				"hashes": {
-					"sha256": "c8b0a224d59844f14250be05072abe276532e02c4d9f67c632b41fe8a04e23b1"
+					"sha256": "21c43ef4cfbb11713a9b1eade6fbcd65854519029821006019c5b9378416de67"
 				},
-				"length": 1393,
-				"version": 1
+				"length": 1397,
+				"version": 6
 			},
 			"channels.security.authors.json": {
 				"hashes": {
-					"sha256": "63f85713fdc5a1689b2c2ee6eec2ac6ba533ae9d4f1aedec0f16104afa69f034"
+					"sha256": "c9b8781fb59d1a339bddb7b8863a16c2a5683e0a881c37501edb6d16f474da06"
 				},
 				"length": 672,
 				"version": 1
 			},
 			"channels.security.json": {
 				"hashes": {
-					"sha256": "e3a8afb98173a417077addef50add0ea0596b312585475901f8310e1917c5e7f"
+					"sha256": "e1c6bb982069bb3353a18cc8dd538d789251b3a9e2ef61cd32ef861c97b9dab2"
 				},
 				"length": 1413,
-				"version": 1
+				"version": 6
 			},
 			"targets.json": {
 				"hashes": {
-					"sha256": "1b25a9b4e445261d8f2955f9607ddc043f1c904cef851d4cf6996352a6d5baf0"
+					"sha256": "ec69c825fc46eb8be126cf676c4ddbb03a4f2eb8a50309491a69f4160ad04f85"
 				},
-				"length": 4184,
-				"version": 1
+				"length": 5813,
+				"version": 5
 			}
 		},
 		"spec_version": "1.0.31",
-		"version": 1
+		"version": 17
 	}
 }

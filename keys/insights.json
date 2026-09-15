@@ -1,4 +1,5 @@
 {
   "name": "insights",
-  "seed_hex": "55f835a422a055b6e4a45b644de6908617e9be2295efb610711fa0b154bbff76"
+  "role": "channel",
+  "seed_hex": "63f38fc2a76cc81ee3028eb846e40382426d66dc6744dc59267addeb161dedb6"
 }

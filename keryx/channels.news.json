@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "179f1bfb566e0b3b7ca8babdb87ad9b6ec3d2c5133071713b332bceaec5037ca",
-			"sig": "4d47e416e7c1d53da7b7594db43946b5afdb7a507310711bcc2755b664fd3434625dadd66b564f0c5ebc7264600b5b73975180ac5823db2dda495d5cab40750d"
+			"keyid": "d269137be7d1f5f35fb0307256359daf75785a8684e4a33c1cbf405a52e3e64f",
+			"sig": "ef03a2394d2f6bb4b4dbbdc8b8f1cd94e084ced9af103c01e68d606e8dd2d05f867cd3ef445a0cccdae03dced007f5e2679173c89ba8c7b8ce1e037d2df6dd02"
 		}
 	],
 	"signed": {
@@ -11,40 +11,40 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-15T00:11:08Z",
+		"expires": "2027-03-14T00:18:50Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "e5b6bb5e2ccd6574458448e4a794dd41f6414d73592e46e2fe88ef613992ca4a"
+					"sha256": "ea1dd3bb68f65d15d546efc0d9f1e12e09b0b659f136f6e6f5fd979bdd7b36fb"
 				},
-				"length": 833
+				"length": 1031
 			},
 			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
 				"hashes": {
-					"sha256": "8b4a831ad04b2be22d896e8ddfed9fdf8618521bc6d83ed83620bad8d778759c"
+					"sha256": "cd567d77694f6e98294dfd2ac0a2d2263bf0f98513bfbd7c56ed6d063cafec12"
 				},
-				"length": 821
+				"length": 1019
 			},
 			"channels/news/msg-2026-06-30-suite-sync.json": {
 				"hashes": {
-					"sha256": "c3f98e34374622f5f55d883898d0311e8fa6eed078f550d685dce5ccaae00a0c"
+					"sha256": "098d5aad49591dc2452d1c030a4be92ea7d81b1dd08bc4da524dbc14ad1bdc06"
 				},
-				"length": 1020
+				"length": 1218
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
 				"hashes": {
-					"sha256": "2882895becd4501522944d134049a4d5b4b91825acf84fe120e89c8028a8f6fe"
+					"sha256": "57c18af839066a963e9ea7b4a4d1a749d931b5aa842e6632396d02d309893da1"
 				},
-				"length": 831
+				"length": 1029
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
 				"hashes": {
-					"sha256": "c6a40776d53535dfe722589b67c59353994a2856fda466979a3043eaafe4c35c"
+					"sha256": "516825072134abab5a29113950297539e1cfcaa368d81d38f78dbce0c9022b6c"
 				},
-				"length": 824
+				"length": 1022
 			}
 		},
-		"version": 1
+		"version": 6
 	}
 }
