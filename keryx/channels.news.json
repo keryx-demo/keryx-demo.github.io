@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "a59ba395d128dc397ae9338f277ae12330939a81579b541f6b206c3d5831f798",
-			"sig": "80a1ad53db32545d7fa365b604f915374c9a2df9c0cb7523bbc7cff6014f312b9118d8f333cdf32f1ee9186528c933bdbfcd228f20ea3c6499208b09bfe46402"
+			"keyid": "59397a780435f21aa2bc43f2fd9521e103c0a07749927e859137ffa58cfe3c89",
+			"sig": "8c74b2a54341d84be9d43ad2e337ef13c326024ea5ba6626dfb429838802cd13e9b7869a7a7d5190bfb73eb087197aaeaa4931e22ffe9ef874113908d8189d0d"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T09:00:19Z",
+		"expires": "2027-03-14T09:09:14Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "c5c09018d422dedcc1122a0b6ed6f95b264dfccbfeef8e5e45baa62474df7bfa"
+					"sha256": "7aa1f42875b24fed378a3e431c674b8202903c987bac76386eeca728c68e0152"
 				},
 				"length": 1031
 			},
 			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
 				"hashes": {
-					"sha256": "a928144357906589c52c5d887b00a292f52f63fea5c02d25668df26e42ce8c87"
+					"sha256": "ec56243201df716dcfc5ba5987942a596e2fa23924f1b049e9d55d3486bc7a0c"
 				},
 				"length": 1019
 			},
 			"channels/news/msg-2026-06-30-suite-sync.json": {
 				"hashes": {
-					"sha256": "8fa219fe8c8b592e597820021d1170b898bc004aca88f33419dcb97f5e9357a2"
+					"sha256": "1dd1a35112c0de4f678e7894ef96bbf0f4b7d51cda03d53080308f0ff0e13c3f"
 				},
 				"length": 1218
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
 				"hashes": {
-					"sha256": "7dc94ffe18d022300196d1e523beed29e8c73e2760518f539ff41c01470dda10"
+					"sha256": "ff76b2420167f242514e507f723f19421313f2321b79cf96be641031c1921d33"
 				},
 				"length": 1029
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
 				"hashes": {
-					"sha256": "466418e84e886a7c127c91dbc346d0bc038d24aad57724d2370d5c61372bce46"
+					"sha256": "a705352954fcb2e22b001d0c58a61e06d50903d930278d23f04966281b02cff4"
 				},
 				"length": 1022
 			}

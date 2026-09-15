@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "bccbc88cdf8bef3b8c772adff828651935651974897b482431a585219992fac5",
-			"sig": "e1336d0a1219d35ba9593a8b3f57f243f94de52d7387f7ba9fd5cdc7dd19d67e483e25cc9eab6746811122f35fbb0279440d503b85c5698784152b5484041905"
+			"keyid": "ffa0de809ecf1de2cabcfdf1c048a13e46820189180cb563b9ca6f076f4dd5c7",
+			"sig": "9afd050e1fe779ff6bebd339b4c0f950916c309a758495dbabe2b525c930da085edba2fd9e1064610755a2a4aa7b4c43d2acd62461772c2c6f6cba683a58d00e"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T09:00:19Z",
+		"expires": "2027-03-14T09:09:14Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "173ae6aaa363f5762268ee5e6a47964e3517a26623a734966ba474d41d26efba"
+					"sha256": "941b02e2895a2ada3750e63cc769b9a97c727a89d13cecbf54d035149bf2f63c"
 				},
 				"length": 1381
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
 				"hashes": {
-					"sha256": "56701d3582c8d423387fc97b7e40a26c28d9e6bd92e3d598a045611eeba09fde"
+					"sha256": "1a3c64f8d3ac456dc6154fc027e541aa6e39588af4d304463e9771cf49680796"
 				},
 				"length": 1523
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
 				"hashes": {
-					"sha256": "b92d5541a62936332ace7718e8d79ad1316e483f5f760a4ad8c5850b17440c2e"
+					"sha256": "c6f3cd7662497cbc39d5441cda2ab17cc9bb088943d8db3202c4981126667b17"
 				},
 				"length": 1557
 			},
 			"channels/security/msg-2026-08-05-coldcard.json": {
 				"hashes": {
-					"sha256": "a325b8d192ee40600fcc508b09371c776706ad4af9f86bfcf5566c58e7c1825e"
+					"sha256": "c3af8f0c298b200b65649cc715c79f455812b7cc518a02a54756bed57ddb97c5"
 				},
 				"length": 1038
 			},
 			"channels/security/msg-2026-08-06-passphrase-faq.json": {
 				"hashes": {
-					"sha256": "6cfa61f6488bc6dc41ea4964472dd1a2a173638ba1ac2ff6b7372e1eb9aa7e87"
+					"sha256": "006bc8ab4ccd7bb560d0d17289345df735afb50171e9f008026edc47bd99bcc0"
 				},
 				"length": 1404
 			}
