@@ -38,13 +38,18 @@ clonable; the rotated keys are what the live site trusts now.
 
 ## Regenerate
 
-Always regenerate through the keryx repository's `make keryx-demo` target: it
-uses `../keryx-demo-keys` and refuses to mint a keystore when it is missing.
+Always regenerate through the keryx repository's `make demo` target: it uses
+`../keryx-demo-keys` by default.
 
 ```sh
 cd ../keryx
-make keryx-demo
+make demo          # regenerate this site from ../keryx-demo-keys
+make demo-verify   # verify the result
 ```
+
+When `../keryx-demo-keys` is absent, `make demo` mints a fresh, independent
+keystore instead — a new root v1 that re-anchors every client. Restore the
+release keys from backup instead of pushing such a demo (spec/repository.md §5).
 
 The equivalent manual run:
 
