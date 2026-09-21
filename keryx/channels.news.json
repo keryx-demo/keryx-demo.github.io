@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "be2153f24ae5d16559ca3101085e6b4c9a589191b9cace41d0ca0c9e426f04b4",
-			"sig": "1aeb1426df86fdc37492baa518f6587978d74fa37f690f1ce7300224db5c4d9582f1bc86c385f75f60373da3cf898de18d3c3e7397a38278a9f9e639b9468b0f"
+			"keyid": "6a6e73f0eeeb9fc165053ad55d0889c48223069eeedb215b5b0da3aa8d19ca2e",
+			"sig": "39e193ad65d12f9a32974e29b64f693f5ff511474bc35da829ce4b5fbe5b916df61155aad52a379e711324e169d2b57ab1a8235aaf06782ae336560142a7d80c"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T14:39:36Z",
+		"expires": "2027-03-20T12:17:37Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
 				"hashes": {
-					"sha256": "83156474d86f713485917aa3f48120ca701d8bf66b50f711dd49ae406f67d19d"
+					"sha256": "715ee0ad55c79c6071fc5dcef9e92c43c32d9f24696fd55c94f008b1f2f713d5"
 				},
 				"length": 1031
 			},
 			"channels/news/msg-2026-05-28-stablecoin-yield.json": {
 				"hashes": {
-					"sha256": "99bad573f294fa987b361006e21905564857b4e45863d4b21c8754332fea9826"
+					"sha256": "8a1b9a1ce53c628f670c1e39fc76492aee69cad74c94324969930e7dcb26b5d5"
 				},
 				"length": 1019
 			},
 			"channels/news/msg-2026-06-30-suite-sync.json": {
 				"hashes": {
-					"sha256": "f1a1604a03c9bbab1895da2be51544b7c5f69876bae7e9e28bf1b6e66f974b88"
+					"sha256": "e837a1742df4754ff6b741214c0d53dd9602db29a86e2cb9edc78ca7e507daf2"
 				},
 				"length": 1218
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-cs.json": {
 				"hashes": {
-					"sha256": "70c7bdcbf12b2aee0c5cd0a0bd2a7d58c412a2fdc5d8a9a3f1200e87154d2869"
+					"sha256": "0c91bcf62b2f9f6def19b7aca47ec106ccd207fa7fbfa677f9f9bcf664a22b6c"
 				},
 				"length": 1029
 			},
 			"channels/news/msg-2026-07-28-self-custody-matters-en.json": {
 				"hashes": {
-					"sha256": "7acfa5c91f35a94d5e72b0ea48924b2e7757e5ebfc9b097af5ea8dfa5fc54af1"
+					"sha256": "b5c0840b251f315ef9294500ac125e686c57efcd459dc524b93f450e876adc97"
 				},
 				"length": 1022
 			}

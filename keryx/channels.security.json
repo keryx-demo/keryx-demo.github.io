@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "ee513f261bbfe1af30f04afc9b0d4470cf940f0f74f991ea85d5eb370aaaca38",
-			"sig": "e9dfaca660fb238c3b8940c82c6a678545e4bbd034c8ff8f3bc6e00b5ecf5e8bdf314ea4076030296fe31522c70df296b9302f8a8a65fe0a05bef58e88531d03"
+			"keyid": "ebe6679a15e89912bbca0929b79be074fddfa6ec8ebb09027f58556aeb4a6f57",
+			"sig": "849301ec4510657a6b3c675646a64d0c0107a3bdd429978ad2f78644bb07db9f180281b37f66c0879cde39e64fff4c01c7d7342f9f50fb36a80f1fab9e4d5909"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-14T14:39:36Z",
+		"expires": "2027-03-20T12:17:37Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "0c7adca3db6c605a5a8ecf613b7b07c54a92b43d404493d254f74cb50f543720"
+					"sha256": "23a0a158682024c006a120f82ce0860880981ff44befd1b1b0ca20a02619581b"
 				},
 				"length": 1381
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
 				"hashes": {
-					"sha256": "2f21b1bae19be35be9fc94d12e1c3b03fa825f059b8846d4829e35f404a7c323"
+					"sha256": "ccc36793266915dc68d9140d63800544552851095c4fb72e1b51d88c87680d54"
 				},
 				"length": 1523
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
 				"hashes": {
-					"sha256": "8b0ea9451ca8b8007bf9b5b2f10d6effa44da12d77aad881420ea4b453f839db"
+					"sha256": "9db53aa73fe25fc40e20c89aa7d020a24947001dc7f6ee2bd486adb6e6072ee8"
 				},
 				"length": 1557
 			},
 			"channels/security/msg-2026-08-05-coldcard.json": {
 				"hashes": {
-					"sha256": "f6e9a1af06dc2bc47fe9f08b0238605db0d1be77afeeb761c4957fcda8521314"
+					"sha256": "85f1a87053ec37e0987500b5903b5b7649667adfc83954e27d7832b3e6556686"
 				},
 				"length": 1038
 			},
 			"channels/security/msg-2026-08-06-passphrase-faq.json": {
 				"hashes": {
-					"sha256": "20391f7f245ba5c3125f7b769a840a5d0dea586130507c6b9cead147befe306d"
+					"sha256": "18390302a45a05961b8f2cadb4909c6a91c13a149faf7ad1f72d2b7e4039a700"
 				},
 				"length": 1404
 			}
