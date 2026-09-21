@@ -23,8 +23,11 @@ site's keystore lives outside every repository, at `../keryx-demo-keys/`
 (`~/projekty/keryx-demo-keys`), and is never committed, copied into the
 site, or handed to another repository:
 
-- `master.json` is the offline root key. Losing it ends this site's trust
-  anchor: no further metadata can be signed and every client has to re-pair.
+- `master.json` is the previous offline root key (v1). The current root
+  key is `master-*.json` (minted by the 2026-09-21 rotation to root v2);
+  losing it ends this site's trust anchor: no further metadata can be signed
+  and every client has to re-pair. Keep `master.json` too — the
+  `1.root.json` → `2.root.json` chain must stay verifiable.
 - The remaining files are the ops (snapshot/timestamp), channel, author, and
   engine keys that the signed metadata authorizes.
 - Back the directory up encrypted. Rotate keys only through TUF metadata
@@ -50,6 +53,12 @@ make demo-verify   # verify the result
 When `../keryx-demo-keys` is absent, `make demo` mints a fresh, independent
 keystore instead — a new root v1 that re-anchors every client. Restore the
 release keys from backup instead of pushing such a demo (spec/repository.md §5).
+
+The anchor's root is **v2** (rotated 2026-09-21 with the release master
+key; expires 2036-09-18). `make demo` re-initializes the anchor as root v1,
+so after a rotation use `pub rotate-root` from `../keryx` for root changes and
+regenerate the whole site only when a new trust anchor is intended — existing
+pairs walk the released chain, new pairs anchor at whatever `root.json` serves.
 
 The equivalent manual run:
 
