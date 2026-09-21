@@ -1,8 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "ebe6679a15e89912bbca0929b79be074fddfa6ec8ebb09027f58556aeb4a6f57",
-			"sig": "849301ec4510657a6b3c675646a64d0c0107a3bdd429978ad2f78644bb07db9f180281b37f66c0879cde39e64fff4c01c7d7342f9f50fb36a80f1fab9e4d5909"
+			"keyid": "06d993c2391c0a7108b5abf3c3ca4c4221465a651b0e235cee221f2f691c174f",
+			"sig": "803a3062e4edc5b89f9f4ed18f3296f21cf06ccbc8ace9dc3c22d7aa5295f185029fbafaa327d542e4bc28dd6b20032c26b7b27135dc0174f293f115fae48d0e"
 		}
 	],
 	"signed": {
@@ -11,36 +11,36 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-20T12:17:37Z",
+		"expires": "2027-03-20T13:35:31Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
-					"sha256": "23a0a158682024c006a120f82ce0860880981ff44befd1b1b0ca20a02619581b"
+					"sha256": "f84217bd9a88362049f6ae74f7f1800e361455afad11a50e9355e1a82d957838"
 				},
 				"length": 1381
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-cs.json": {
 				"hashes": {
-					"sha256": "ccc36793266915dc68d9140d63800544552851095c4fb72e1b51d88c87680d54"
+					"sha256": "b2c98bbd83442fff9891731a3de81f16e5357c7e6d663bc6e029b0d7b8d2fa1c"
 				},
 				"length": 1523
 			},
 			"channels/security/msg-2026-03-25-how-crypto-is-stolen-en.json": {
 				"hashes": {
-					"sha256": "9db53aa73fe25fc40e20c89aa7d020a24947001dc7f6ee2bd486adb6e6072ee8"
+					"sha256": "43873ff80e71fe6f780dfdb827a41ba90c97f1284313de930290d64085c18ed3"
 				},
 				"length": 1557
 			},
 			"channels/security/msg-2026-08-05-coldcard.json": {
 				"hashes": {
-					"sha256": "85f1a87053ec37e0987500b5903b5b7649667adfc83954e27d7832b3e6556686"
+					"sha256": "d6fd2768a1e2068739a97cf6811ceb46f2705500856e5b4a35417f2602fb1d33"
 				},
 				"length": 1038
 			},
 			"channels/security/msg-2026-08-06-passphrase-faq.json": {
 				"hashes": {
-					"sha256": "18390302a45a05961b8f2cadb4909c6a91c13a149faf7ad1f72d2b7e4039a700"
+					"sha256": "e9f2578d65751ec6617d70f949e8df427e88c1d76a1779201e5750553ba0470b"
 				},
 				"length": 1404
 			}

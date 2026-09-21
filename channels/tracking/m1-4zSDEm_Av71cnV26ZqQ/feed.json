@@ -1,7 +1,7 @@
 {
   "channel": "tracking",
   "expired": false,
-  "expires": "2026-11-05T12:17:37Z",
+  "expires": "2026-11-05T13:35:31Z",
   "items": [
     {
       "attachments": [
@@ -30,10 +30,10 @@
   "sig": [
     {
       "keyid": "99ef3b86a51ffaca27ac89f6ca684ac099f534c6893bcad24cbb9bb9bf311acd",
-      "sig": "SO8GR3AJR0J7VPJpkJ7D-QtWrCwRs0oECuFJ1sS1eV_58G1iDFXWfXrWms57cERSUtVhGKOpUyCirBE3kfkMDw"
+      "sig": "_2l8ru-Q3ZWqJyVQxsV38ELtfH9UhhQu9lWxOrE5AhNMdKkp8FqrXfZObhFjF6GvD-hb3hPQGS7uqavX0g_ECQ"
     }
   ],
-  "url": "https://keryx-demo.github.io/channels/tracking/6j7NW64yNCN4Er8oE78nkw/feed.json",
+  "url": "https://keryx-demo.github.io/channels/tracking/m1-4zSDEm_Av71cnV26ZqQ/feed.json",
   "v": 1,
   "version": 1
 }
