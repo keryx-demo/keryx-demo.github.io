@@ -1,12 +1,8 @@
 {
 	"signatures": [
 		{
-			"keyid": "d2c6852ab34ed6e8da980638f416f628ec3ad4a718725eb258c7d8eb606d7913",
-			"sig": "005411f1717dbbb228ddbc7d5985c0db8de9ac41b747412c8c024e4a72a033016b18dbe6819adf31aeb95a26c78ff3a15a53a5b90f769d02789a6b7d4111fb07"
-		},
-		{
 			"keyid": "10c4c3af5867ba98a45c3603e881a4ede3ef5c7cfe0fd1de2a37018eef8b8577",
-			"sig": "4ef4a3e2dc03ebe066e7711139f6a1d58138fa9a5bdb609681364a492eca92ead141ef8d8c0f47c1701c8af6596d6ac8012faa51db5b09b803e71d5e8d427b0a"
+			"sig": "cbf93e03de4b4d40fa356700f9b95dad84f873345ac0e35fc0fefa35aca763d6a4f291afffaac64506634562dd08e10a37fc9f6f45f3e8ba76b2a5ec814b2d0f"
 		}
 	],
 	"signed": {
@@ -143,9 +139,9 @@
 				}
 			]
 		},
-		"expires": "2027-09-21T13:35:31Z",
+		"expires": "2027-09-21T22:23:05Z",
 		"spec_version": "1.0.31",
 		"targets": {},
-		"version": 5
+		"version": 6
 	}
 }
