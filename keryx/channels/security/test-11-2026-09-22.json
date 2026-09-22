@@ -1,0 +1,26 @@
+{
+  "content_html": "<p>Test 11 — decisive live-update and notification check on the phone.</p>",
+  "date_published": "2026-09-22T10:15:00Z",
+  "id": "test-11-2026-09-22",
+  "language": "en",
+  "sig": [
+    {
+      "keyid": "11a712905c1733c0d98261f9d37c682205c776f03206b536ef154ec261a95e7a",
+      "sig": "ryAW5h_m6avtEJ_CC34PfVILjQ0JZaBM_8wxih5NqyqfCW9_u4ED7tkwpF_gVthI91tzRSgAN03xIGF48jI8BA"
+    },
+    {
+      "keyid": "00fed46d76cadf9994982834a51b31b001577787eccf47118c019d605463f34b",
+      "sig": "VCBOX1T8OkASOAoFW3T770iqsDkDniYomNlin8TVblXyMUk6ig4fXGxbqL4v_oXk6BL60BIjRL87z6_qDc3nDg"
+    },
+    {
+      "keyid": "06d993c2391c0a7108b5abf3c3ca4c4221465a651b0e235cee221f2f691c174f",
+      "sig": "SkbDW8IPK5A_Eb8KDzw0YZd2jX6RjrVPw3aaZixqmOTToe0ImIG7xSWqD-hx3lAyQswrXvlQvfeWw-11aL3ICw"
+    }
+  ],
+  "tags": [
+    "demo",
+    "security",
+    "en"
+  ],
+  "title": "Test 11"
+}
