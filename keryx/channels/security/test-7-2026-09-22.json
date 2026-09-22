@@ -1,0 +1,28 @@
+{
+  "content_html": "<p>Test 3 — the full cycle while the app is in the background: publish, deploy, notify, notification, live update.</p>",
+  "date_published": "2026-09-22T08:22:41.618Z",
+  "id": "test-7-2026-09-22",
+  "image": "https://keryx-demo.github.io/media/img/howstolen.jpg",
+  "image_sha256": "b4516640b5244dafb1cfbb885a00af08bbd77fc9b7fbdca333c4cfbd7696456e",
+  "language": "en",
+  "sig": [
+    {
+      "keyid": "11a712905c1733c0d98261f9d37c682205c776f03206b536ef154ec261a95e7a",
+      "sig": "-_004wZcsJAon3ITaZFYIATuuVbLmNX84bLMTMZfds2NIsRsrnsWci2RAsX3B1jp7dFyFj-58uxBshyDaJR_BQ"
+    },
+    {
+      "keyid": "00fed46d76cadf9994982834a51b31b001577787eccf47118c019d605463f34b",
+      "sig": "Gf3wLBprTzCSV9jT6rdWcd143m8fKhGa6p4RquPT4Hyni8POgZS0PWvfJ4IWav4eQKb8-VNYYW1_UQR1WbcnBA"
+    },
+    {
+      "keyid": "06d993c2391c0a7108b5abf3c3ca4c4221465a651b0e235cee221f2f691c174f",
+      "sig": "VKtkQXQMQ92S4Mfo5jc56wmcMzqH9ob7ozAI8OIoP9B5oWtFnEb1opcAf9_ql-qYh22vieCRpty9ygMCT2UpCQ"
+    }
+  ],
+  "tags": [
+    "demo",
+    "security",
+    "en"
+  ],
+  "title": "Test 7"
+}
