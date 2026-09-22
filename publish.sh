@@ -6,8 +6,9 @@
 #
 #   1. create the item draft (spec/feeds.md §1.1)
 #   2. sign it with both security authors (authored channel, threshold 2)
-#   3. publish it into the channel index (channel role + snapshot + timestamp)
-#   4. keep at most 10 "Test N" items: unpublish the oldest ones
+#   3. make room: unpublish the oldest "Test N" items first, so the channel
+#      never indexes more than 10 of them
+#   4. publish the new item into the channel index (role + snapshot + timestamp)
 #   5. commit and push the site (GitHub Pages deploys it)
 #   6. pub notify: wait for the deployed site to serve the new metadata,
 #      then tell the relay to wake the devices
@@ -81,26 +82,29 @@ say "signing with author-security-a and author-security-b"
 "$pub" item sign --file "$draft" --channel "$channel" --keyid "$author_a" --keystore "$keys"
 "$pub" item sign --file "$draft" --channel "$channel" --keyid "$author_b" --keystore "$keys"
 
-# --- 3. publish it (indexes the item, re-signs role/snapshot/timestamp) ----
-say "publishing $id into $channel"
-"$pub" publish --channel "$channel" --file "$draft" \
-  --repo "$repo" --anchor "$anchor" --keystore "$keys"
-
-# --- 4. keep only the newest $keep test items ------------------------------
-# numeric sort by the <n> in test-<n>[-<date>]
+# --- 3. make room: unpublish the oldest test items first -------------------
+# The new item is not published yet, so remove count + 1 - keep of the oldest:
+# the channel index never holds more than $keep "Test N" items, not even between
+# the two writes.
 mapfile -t tests < <(
   for f in "$repo"/channels/"$channel"/test-*.json; do
     [[ -e "$f" ]] || continue
     basename "$f" .json
   done | sort -t- -k2 -n
 )
-if (( ${#tests[@]} > keep )); then
-  say "unpublishing the ${#tests[@]} - $keep oldest test item(s)"
-  for (( i = 0; i < ${#tests[@]} - keep; i++ )); do
+room=$(( ${#tests[@]} + 1 - keep ))
+if (( room > 0 )); then
+  say "unpublishing the $room oldest test item(s) to make room"
+  for (( i = 0; i < room; i++ )); do
     "$pub" item unpublish --channel "$channel" --id "${tests[$i]}" \
       --repo "$repo" --anchor "$anchor" --keystore "$keys"
   done
 fi
+
+# --- 4. publish it (indexes the item, re-signs role/snapshot/timestamp) -------
+say "publishing $id into $channel"
+"$pub" publish --channel "$channel" --file "$draft" \
+  --repo "$repo" --anchor "$anchor" --keystore "$keys"
 
 # --- 5. validate, commit and push (Pages deploys it) ----------------------
 say "validating and pushing the site"
