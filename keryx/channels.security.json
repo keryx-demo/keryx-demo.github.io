@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "06d993c2391c0a7108b5abf3c3ca4c4221465a651b0e235cee221f2f691c174f",
-			"sig": "803a3062e4edc5b89f9f4ed18f3296f21cf06ccbc8ace9dc3c22d7aa5295f185029fbafaa327d542e4bc28dd6b20032c26b7b27135dc0174f293f115fae48d0e"
+			"sig": "5b6344652fa3e2e56e9817cc513fb44e3f8dd2bffc0c4a678011f3c45d3bcff67e0c743b6cb33a551285c11266d671bcd4a745b47547cf07adc4aa79292d220b"
 		}
 	],
 	"signed": {
@@ -11,9 +11,15 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-20T13:35:31Z",
+		"expires": "2027-03-21T00:00:38Z",
 		"spec_version": "1.0.31",
 		"targets": {
+			"channels/security/live-demo-2026-09-22.json": {
+				"hashes": {
+					"sha256": "8f44e79ab0a183c8b0ae08d8cfb806ac615b88535db6c7aba1a14230a5bf202b"
+				},
+				"length": 1204
+			},
 			"channels/security/msg-2026-03-18-phishing-attacks.json": {
 				"hashes": {
 					"sha256": "f84217bd9a88362049f6ae74f7f1800e361455afad11a50e9355e1a82d957838"
@@ -45,6 +51,6 @@
 				"length": 1404
 			}
 		},
-		"version": 6
+		"version": 7
 	}
 }
