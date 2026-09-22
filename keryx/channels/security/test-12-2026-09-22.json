@@ -1,0 +1,26 @@
+{
+  "content_html": "<p>Test 12 — after the phone-side reinstall: push delivery, live UI update and notification.</p>",
+  "date_published": "2026-09-22T11:20:00Z",
+  "id": "test-12-2026-09-22",
+  "language": "en",
+  "sig": [
+    {
+      "keyid": "11a712905c1733c0d98261f9d37c682205c776f03206b536ef154ec261a95e7a",
+      "sig": "ON5Mnq85Od-Obsn-IT_Mjyt7qaIIC0KSsfQ_wo2w7Km4pamb5AcbmVDO3tWvH89uIL0aXuCsMKFg4JsOPkvZCw"
+    },
+    {
+      "keyid": "00fed46d76cadf9994982834a51b31b001577787eccf47118c019d605463f34b",
+      "sig": "3QWirvvJ6EFTiFc525aSlLKT6elfvnEjtVNaV2xoD9wKPfljvCklxsF7QG05GEmvmOXeooQ7IBeWrWShRdmyAw"
+    },
+    {
+      "keyid": "06d993c2391c0a7108b5abf3c3ca4c4221465a651b0e235cee221f2f691c174f",
+      "sig": "DkGMVnpHP0bMXomYUi-_6ScVomLgLHSGaFMspuvy-cYHNo1m396g6mJPRWuXEGtb9cHfheqDo5zE3esdCcV6DA"
+    }
+  ],
+  "tags": [
+    "demo",
+    "security",
+    "en"
+  ],
+  "title": "Test 12"
+}
