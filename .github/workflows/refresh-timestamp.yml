@@ -8,6 +8,9 @@ name: Refresh TUF timestamp
 # content and retry — expiry is not suspension, spec/repository.md §5). Once the
 # bot stops committing, GitHub's own 60-day inactivity rule disables this
 # schedule for good.
+#
+# pub is built once per pinned revision and cached: a cache hit skips both the
+# Go setup and the build.
 
 on:
   schedule:
@@ -46,17 +49,23 @@ jobs:
             echo "::notice::no author item in ${days}d (> ${MAX_IDLE_DAYS}); not refreshing"
           fi
 
-      - name: Set up Go
+      - name: Cache pub
+        id: pub
         if: steps.idle.outputs.skip != 'true'
+        uses: actions/cache@v6
+        with:
+          path: ~/go/bin/pub
+          key: pub-${{ runner.os }}-1f6871183a125f356fe784794af326a82ee0ddf1
+
+      - name: Set up Go
+        if: steps.idle.outputs.skip != 'true' && steps.pub.outputs.cache-hit != 'true'
         uses: actions/setup-go@v7
         with:
           go-version: '1.26'
 
       - name: Install pub
-        if: steps.idle.outputs.skip != 'true'
-        run: |
-          go install github.com/v1b3coder/keryx/sdk/cmd/pub@1f6871183a125f356fe784794af326a82ee0ddf1
-          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+        if: steps.idle.outputs.skip != 'true' && steps.pub.outputs.cache-hit != 'true'
+        run: go install github.com/v1b3coder/keryx/sdk/cmd/pub@1f6871183a125f356fe784794af326a82ee0ddf1
 
       - name: Write the ops keystore
         if: steps.idle.outputs.skip != 'true'
@@ -70,9 +79,9 @@ jobs:
       - name: Refresh timestamp and validate
         if: steps.idle.outputs.skip != 'true'
         run: |
-          pub refresh-timestamp --expires 48h \
+          "$HOME/go/bin/pub" refresh-timestamp --expires 48h \
             --repo keryx --anchor .well-known/keryx --keystore "$RUNNER_TEMP/keys"
-          pub validate --repo keryx --anchor .well-known/keryx
+          "$HOME/go/bin/pub" validate --repo keryx --anchor .well-known/keryx
 
       - name: Commit and push
         if: steps.idle.outputs.skip != 'true'
