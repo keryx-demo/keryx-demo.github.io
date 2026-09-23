@@ -1,0 +1,90 @@
+name: Refresh TUF timestamp
+
+# The ops role (design/tooling.md §2): keep the demo's TUF metadata fresh.
+# Daily at 03:00 UTC; also runnable by hand.
+#
+# If no author published an item for MAX_IDLE_DAYS, the refresh stops: an
+# abandoned repository should be allowed to expire (clients keep serving cached
+# content and retry — expiry is not suspension, spec/repository.md §5). Once the
+# bot stops committing, GitHub's own 60-day inactivity rule disables this
+# schedule for good.
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write      # commit + push the refreshed timestamp
+  actions: write       # dispatch the Pages deploy below
+
+concurrency:
+  group: tuf-refresh
+  cancel-in-progress: false
+
+env:
+  MAX_IDLE_DAYS: 180
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0   # the idle check reads the item history
+
+      - name: Check for author activity
+        id: idle
+        run: |
+          last=$(git log -1 --format=%ct -- 'keryx/channels/*/*.json')
+          days=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "last author item: ${days}d ago"
+          echo "days=$days" >> "$GITHUB_OUTPUT"
+          if (( days > MAX_IDLE_DAYS )); then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::no author item in ${days}d (> ${MAX_IDLE_DAYS}); not refreshing"
+          fi
+
+      - name: Set up Go
+        if: steps.idle.outputs.skip != 'true'
+        uses: actions/setup-go@v7
+        with:
+          go-version: '1.26'
+
+      - name: Install pub
+        if: steps.idle.outputs.skip != 'true'
+        run: |
+          go install github.com/v1b3coder/keryx/sdk/cmd/pub@1f6871183a125f356fe784794af326a82ee0ddf1
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Write the ops keystore
+        if: steps.idle.outputs.skip != 'true'
+        env:
+          OPS_KEY: ${{ secrets.KERYX_OPS_KEY }}
+        run: |
+          echo "::add-mask::$OPS_KEY"
+          mkdir -p "$RUNNER_TEMP/keys"
+          printf '%s' "$OPS_KEY" | base64 -d > "$RUNNER_TEMP/keys/ops.json"
+
+      - name: Refresh timestamp and validate
+        if: steps.idle.outputs.skip != 'true'
+        run: |
+          pub refresh-timestamp --expires 48h \
+            --repo keryx --anchor .well-known/keryx --keystore "$RUNNER_TEMP/keys"
+          pub validate --repo keryx --anchor .well-known/keryx
+
+      - name: Commit and push
+        if: steps.idle.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add keryx/timestamp.json
+          git commit -m "chore: refresh timestamp"
+          git push
+
+      - name: Deploy the site
+        if: steps.idle.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml
