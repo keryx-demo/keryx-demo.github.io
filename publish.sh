@@ -4,13 +4,15 @@
 #
 # The whole chain, in the order it happens:
 #
-#   1. create the item draft (spec/feeds.md §1.1)
-#   2. sign it with both security authors (authored channel, threshold 2)
-#   3. make room: unpublish the oldest "Test N" items first, so the channel
+#   1. pull main: the daily "Refresh TUF timestamp" workflow pushes here too,
+#      so start from its commits
+#   2. create the item draft (spec/feeds.md §1.1)
+#   3. sign it with both security authors (authored channel, threshold 2)
+#   4. make room: unpublish the oldest "Test N" items first, so the channel
 #      never indexes more than 10 of them
-#   4. publish the new item into the channel index (role + snapshot + timestamp)
-#   5. commit and push the site (GitHub Pages deploys it)
-#   6. pub notify: wait for the deployed site to serve the new metadata,
+#   5. publish the new item into the channel index (role + snapshot + timestamp)
+#   6. commit and push the site (GitHub Pages deploys it)
+#   7. pub notify: wait for the deployed site to serve the new metadata,
 #      then tell the relay to wake the devices
 #
 # Everything is relative to this script: no secrets, no configuration, no
@@ -51,7 +53,14 @@ author_a="$("$pub" keys list --keystore "$keys" | awk '$1 == "author-security-a"
 author_b="$("$pub" keys list --keystore "$keys" | awk '$1 == "author-security-b" { print $3 }')"
 [[ -n "$author_a" && -n "$author_b" ]] || die "author-security-a/b missing from $keys"
 
-# --- 1. the next test number and the draft --------------------------------
+# --- 1. sync with origin/main --------------------------------------------
+# The timestamp refresh workflow commits keryx/timestamp.json to main on its own
+# schedule. Pull before touching the repository, or the push in step 6 is rejected.
+# --autostash keeps a dirty worktree from blocking the pull.
+say "syncing with origin/main"
+git -C "$here" pull --rebase --autostash origin main
+
+# --- 2. the next test number and the draft --------------------------------
 # existing items are channels/security/test-<n>[-<date>].json; take the highest n
 last=0
 for f in "$repo"/channels/"$channel"/test-*.json; do
@@ -77,12 +86,12 @@ cat > "$draft" <<EOF
 }
 EOF
 
-# --- 2. sign it with both authors (the channel's threshold is 2) -----------
+# --- 3. sign it with both authors (the channel's threshold is 2) -----------
 say "signing with author-security-a and author-security-b"
 "$pub" item sign --file "$draft" --channel "$channel" --keyid "$author_a" --keystore "$keys"
 "$pub" item sign --file "$draft" --channel "$channel" --keyid "$author_b" --keystore "$keys"
 
-# --- 3. make room: unpublish the oldest test items first -------------------
+# --- 4. make room: unpublish the oldest test items first -------------------
 # The new item is not published yet, so remove count + 1 - keep of the oldest:
 # the channel index never holds more than $keep "Test N" items, not even between
 # the two writes.
@@ -101,19 +110,19 @@ if (( room > 0 )); then
   done
 fi
 
-# --- 4. publish it (indexes the item, re-signs role/snapshot/timestamp) -------
+# --- 5. publish it (indexes the item, re-signs role/snapshot/timestamp) -------
 say "publishing $id into $channel"
 "$pub" publish --channel "$channel" --file "$draft" \
   --repo "$repo" --anchor "$anchor" --keystore "$keys"
 
-# --- 5. validate, commit and push (Pages deploys it) ----------------------
+# --- 6. validate, commit and push (Pages deploys it) ----------------------
 say "validating and pushing the site"
 "$pub" validate --repo "$repo" --anchor "$anchor"
 git -C "$here" add -A
 git -C "$here" commit -m "feat: publish Test $next"
 git -C "$here" push origin main
 
-# --- 6. wake the devices ------------------------------------------------
+# --- 7. wake the devices ------------------------------------------------
 # pub notify polls the deployed site until it serves the versions published
 # above, then signs a wake-up with the channel key and posts it to the relay.
 say "notifying the relay (waits for the deploy)"
