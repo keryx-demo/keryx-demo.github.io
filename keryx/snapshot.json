@@ -2,12 +2,12 @@
 	"signatures": [
 		{
 			"keyid": "b0b39f0854671ca0563f05b5c4476c7b4fe7f8970658eeb2e77e4d3127b8c6c2",
-			"sig": "ac8b4a2e2913cdbe654db47943ed7dff070c40566f56a62a162711053a6d7f714adee963be9a1aa5615bc3e75731a8ad0f3df719f36c46cf1ac7bccb38ff5107"
+			"sig": "278a8362fccdc8bec4f830072eae7d5d51753344fd1be426dabd81fff24df3bfbb17ba7675f17386efaa089e40d46989e03180e79f1399574d8952534697200e"
 		}
 	],
 	"signed": {
 		"_type": "snapshot",
-		"expires": "2026-10-24T12:50:44Z",
+		"expires": "2026-10-24T13:43:42Z",
 		"meta": {
 			"channels.insights.json": {
 				"hashes": {
@@ -18,10 +18,10 @@
 			},
 			"channels.news.json": {
 				"hashes": {
-					"sha256": "754d8d6db34cc3823e17b8a725aacd90af5a771015a71a1befffacc2a3ccf7f8"
+					"sha256": "f61ebe1451854f23ad9c9395f36804caa79289a6690386e033552fa36ea6a457"
 				},
-				"length": 1397,
-				"version": 6
+				"length": 1570,
+				"version": 7
 			},
 			"channels.security.authors.json": {
 				"hashes": {
@@ -46,6 +46,6 @@
 			}
 		},
 		"spec_version": "1.0.31",
-		"version": 62
+		"version": 63
 	}
 }

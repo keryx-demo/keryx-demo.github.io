@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "9a16ed2235074ac9cfe6feafed23aec8474fe84831973ee4441ad10b294af83c",
-			"sig": "a6ce1a709262cf131e2e66ab3360ebde75ea6949e30695c3fca17b913946843171d34ae8cdfdf6dc78d195c8a14554816325cf5427a5fb8e5b4204e5a5438c04"
+			"sig": "d290e83d3541760945d5f1f8f9aa607e6f001435522e0779b7e75dc6e0d31b16efbb3a27f4a2ff3dff1aaa79dca9e0a7761c7f2fa6c54a38b67288a80db8370d"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-20T13:35:31Z",
+		"expires": "2027-03-23T13:43:42Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/news/msg-2026-05-11-quantum-deadline.json": {
@@ -43,8 +43,14 @@
 					"sha256": "8b12db8c9874add4e29e7009e302d0bd686196815338f9b6f92f5f4daac5d946"
 				},
 				"length": 1022
+			},
+			"channels/news/zdravim-dejva.json": {
+				"hashes": {
+					"sha256": "04de3303394b925995c442411b7428c6903dac23cca87a6cc27c845b54d31864"
+				},
+				"length": 118112
 			}
 		},
-		"version": 6
+		"version": 7
 	}
 }
