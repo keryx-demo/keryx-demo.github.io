@@ -2,7 +2,7 @@
 	"signatures": [
 		{
 			"keyid": "06d993c2391c0a7108b5abf3c3ca4c4221465a651b0e235cee221f2f691c174f",
-			"sig": "1d674bb20177c13fbdd17f326f9739b223d10c2d8e0e3d2881ba1a12e393e9ee1c1c4cf3d77d967e7d17228ebd2f8b7fb07c8b39e8c1a1434ee2665d146ba30e"
+			"sig": "bb8f8fe11a2e59f2dbd22298d5478d2258e6e715b9bda4f5bb7e8ff81e170b6579ecf5ca8350f72e79dafce05e4b35a482ae1d124f33ae0f9a3e68454a195706"
 		}
 	],
 	"signed": {
@@ -11,7 +11,7 @@
 			"keys": {},
 			"roles": []
 		},
-		"expires": "2027-03-24T01:18:15Z",
+		"expires": "2027-03-24T06:59:01Z",
 		"spec_version": "1.0.31",
 		"targets": {
 			"channels/security/live-demo-2026-09-22.json": {
@@ -49,12 +49,6 @@
 					"sha256": "e9f2578d65751ec6617d70f949e8df427e88c1d76a1779201e5750553ba0470b"
 				},
 				"length": 1404
-			},
-			"channels/security/test-21.json": {
-				"hashes": {
-					"sha256": "6321354742de1eeb3fc48c58750a9b29795fd28b02ff0f4dc2604d200193ebbf"
-				},
-				"length": 860
 			},
 			"channels/security/test-22.json": {
 				"hashes": {
@@ -109,8 +103,14 @@
 					"sha256": "fa01dc7e80be9e23604c85f0f27b37acbead1456843944bb1dfe2b1c16ec00fe"
 				},
 				"length": 860
+			},
+			"channels/security/test-31.json": {
+				"hashes": {
+					"sha256": "a5324f387da91d72b20688617b48bc394015539215154076c1b49bb549cc762d"
+				},
+				"length": 860
 			}
 		},
-		"version": 55
+		"version": 57
 	}
 }
